@@ -1,10 +1,20 @@
 # Cosmos Pay — Activity Summary
 
+## Repositories with changes in this period
+
+- [**CosmosPay-Wallet**](https://github.com/CosmosPay/CosmosPay-Wallet) — Wallet (extension, web and apps)
+- [**CosmosPay-Community-Server**](https://github.com/CosmosPay/CosmosPay-Community-Server) — Community Server (API)
+- [**CosmosPay-Developer-Platform**](https://github.com/CosmosPay/CosmosPay-Developer-Platform) — Developer Platform (console and docs)
+- [**CosmosJS_SDK**](https://github.com/CosmosPay/CosmosJS_SDK) — JavaScript SDK
+- [**Cosmos-frontend**](https://github.com/CosmosPay/Cosmos-frontend) — Agency frontend / landing
+- [**cosmos-backend**](https://github.com/CosmosPay/cosmos-backend) — Agency backend
+- [**CosmosPay-Skill**](https://github.com/CosmosPay/CosmosPay-Skill) — Agent skill
+
 Record of the work done across the [`CosmosPay`](https://github.com/CosmosPay) organization from **Saturday 12/09/2026 at 15:00 (Argentina time, UTC-3)** to **27/09/2026 10:38 (ART)**. All times are Argentina time and all dates use the DD/MM format.
 
 Sections are ordered by work priority:
 
-1. [Work on `dev`](#1-work-on-dev): what was built on the integration branch, starting with what **has not reached `main` yet**.
+1. [Commits](#1-commits): every commit of the period, all branches together, tagged `main` or `dev`.
 2. [Working branches](#2-working-branches): branches created or active during the period, and their status.
 3. [Pull requests](#3-pull-requests): open ones first, then merged ones.
 4. [Shipped to `main`](#4-shipped-to-main): releases, builds and deployments.
@@ -13,219 +23,201 @@ The overall changelog is in [CHANGELOG.md](CHANGELOG.md).
 
 ## Overview
 
-| Repository | Commits on `dev` | Not on `main` yet | Active branches | Open PRs | Merged PRs | Releases | Builds |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| CosmosPay-Wallet | 22 | 13 | 8 | 7 | 4 | 18 | 65 |
-| CosmosPay-Community-Server | 30 | 11 | 5 | 6 | 5 | 4 | 42 |
-| CosmosPay-Developer-Platform | 32 | 14 | 2 | 2 | 7 | 4 | 55 |
-| CosmosJS_SDK | 8 | 1 | 1 | 1 | 3 | 1 | 21 |
-| Cosmos-frontend | — (no `dev`) | — | 0 | 0 | 0 | 0 | 4 |
-| cosmos-backend | — (no `dev`) | — | 2 | 0 | 2 | 0 | 0 |
-| CosmosPay-Skill | — (no `dev`) | — | 1 | 0 | 1 | 0 | 0 |
-| **Total** | **92** | **39** | **19** | **16** | **22** | **27** | **187** |
+| Repository | Total commits | Active branches | Open PRs | Merged PRs | Releases | Builds |
+|---|---:|---:|---:|---:|---:|---:|
+| [CosmosPay-Wallet](https://github.com/CosmosPay/CosmosPay-Wallet) | 22 | 8 | 7 | 4 | 18 | 65 |
+| [CosmosPay-Community-Server](https://github.com/CosmosPay/CosmosPay-Community-Server) | 30 | 5 | 6 | 5 | 4 | 42 |
+| [CosmosPay-Developer-Platform](https://github.com/CosmosPay/CosmosPay-Developer-Platform) | 32 | 2 | 2 | 7 | 4 | 55 |
+| [CosmosJS_SDK](https://github.com/CosmosPay/CosmosJS_SDK) | 8 | 1 | 1 | 3 | 1 | 21 |
+| [Cosmos-frontend](https://github.com/CosmosPay/Cosmos-frontend) | 14 | 0 | 0 | 0 | 0 | 4 |
+| [cosmos-backend](https://github.com/CosmosPay/cosmos-backend) | 5 | 2 | 0 | 2 | 0 | 0 |
+| [CosmosPay-Skill](https://github.com/CosmosPay/CosmosPay-Skill) | 3 | 1 | 0 | 1 | 0 | 0 |
+| **Total** | **114** | **19** | **16** | **22** | **27** | **187** |
 
-> *Not on `main` yet* counts the commits made on `dev` during the period that have not reached `main`, excluding sync merges. `Cosmos-frontend`, `cosmos-backend` and `CosmosPay-Skill` have no `dev` branch; they are worked on directly on `main` or through PR branches.
+> *Total commits* counts every commit made during the period across all branches, merges included. Each one is tagged `main` or `dev` in [section 1](#1-commits). `Cosmos-frontend`, `cosmos-backend` and `CosmosPay-Skill` have no `dev` branch, so all their commits are on `main`.
 
 ---
 
-## 1. Work on `dev`
+## 1. Commits
+
+Every commit made during the period, all branches together. The **Branch** tag shows where each commit is today: `main` means it has already been shipped to `main`; `dev` means it is on `dev` and has not reached `main` yet.
 
 ### CosmosPay-Wallet
 
 Wallet (extension, web and apps) — working branch: `dev`
 
-#### On `dev`, not on `main` yet (13 commits + 2 merges)
+**22 commits** (19 commits + 3 merges)
 
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 27/09 09:56 | Emanuel250YT | [`0dc2fcd`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/0dc2fcdc46a6d39b5195b8d7254769c48d42be86) | feat(passkeys): implement passkey creation, retrieval, and status commands |
-| 27/09 00:09 | Emanuel250YT | [`075c23b`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/075c23ba41e0aaa1647a6d8d3d5b478278f833ae) | feat: implement passkey unlock functionality |
-| 26/09 22:14 | Emanuel250YT | [`16aeff7`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/16aeff77e74b2fee1a445515ae91328a9b2dddd8) | feat: agregar manejo de token de sesión en el proceso de inicio de sesión y recuperación |
-| 25/09 21:00 | Emanuel250YT | [`e177362`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/e1773621bdea054b2f1b04856cb5057bff58e1f7) | feat: add OpenAPI sync script and gateway contract tests |
-| 25/09 20:44 | Emanuel250YT | [`4151b8b`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/4151b8bdd9abba79dc2c44d2aa829e42262e0862) | feat: implement recovery process with identity tokens and email codes |
-| 25/09 18:57 | Emanuel250YT | [`fc61913`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/fc61913c3fbf5af0e874e4d298702ff35af10fb6) | feat(signin): switch the sign-in backend with a flag, not a rewrite |
-| 24/09 17:15 | Emanuel250YT | [`3006f4e`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/3006f4e8087ee7e676c324f5de94fa875944c03c) | feat: enhance SEP-10 and recovery features |
-| 24/09 16:10 | Emanuel250YT | [`fe7e293`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/fe7e29332a7f04200483d47a26654b29d7dbdb50) | feat(proxy): mejorar manejo de errores en el proxy de desarrollo y optimizar dependencias |
-| 24/09 12:30 | Emanuel250YT | [`c4d07e8`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/c4d07e8f0fcc4b908f1a14b4927de31335adec03) | Implement feature X to enhance user experience and fix bug Y in module Z |
-| 19/09 22:57 | Emanuel250YT | [`930b7e3`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/930b7e3e2e39e79782c6fbd36f6227b8c2d64a25) | Add styles for account recovery and onboarding features |
-| 19/09 21:19 | Emanuel250YT | [`db9314a`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/db9314ac8454cc9e64e7b1887ff9158b9f49a4a2) | feat: implement sign-in methods UI and functionality |
-| 19/09 21:19 | Emanuel250YT | [`b0bfe48`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/b0bfe48715ca94e9a2a6ce790fba7e8a4727d298) | feat(social-login): eliminar componente y estilos de inicio de sesión social |
-| 19/09 12:00 | Emanuel250YT | [`cb972dc`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/cb972dc6a58b43cf3a217cfb961ada11d683b09d) | feat(icon): implement dev icon handling for local builds across platforms |
-| 19/09 10:38 | Emanuel250YT | [`9c7868b`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/9c7868be1b4f6d6958ac22d35393827d2fe8c402) | Merge pull request #75 from CosmosPay/main *(merge)* |
-| 16/09 12:56 | Emanuel250YT | [`4915101`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/49151015d36bea792a3c7564cd004faa4a0b423e) | Merge pull request #74 from CosmosPay/main *(merge)* |
-
-#### On `dev`, already shipped to `main` (6 commits + 1 merges)
-
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 18/09 21:38 | github-actions[bot] | [`936610e`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/936610e211dcd1eb998bd706a14c6aa7f5d9d4d6) | chore(release): v1.9.0 [skip ci] |
-| 18/09 20:28 | leocagli | [`1c2f33e`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/1c2f33e9068676d23aeed9e1bfa24545a42f87a0) | feat(marca): el nombre en la bienvenida va como lockup SVG, no tipeado |
-| 18/09 20:26 | leocagli | [`5b1958a`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/5b1958a567562bd3e751f8387bd276e58cd5d267) | feat(marca): la wallet pasa a la identidad nueva de Cosmos |
-| 16/09 12:54 | github-actions[bot] | [`20df981`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/20df9813a615d900f6fd7e1186396c4341386660) | chore(release): v1.8.0 [skip ci] |
-| 16/09 12:51 | Emanuel250YT | [`80c1f57`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/80c1f57a6fec664f912221614a5daf10c4a1a015) | Merge pull request #73 from CosmosPay/dev *(merge)* |
-| 16/09 12:27 | Emanuel250YT | [`ede25aa`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/ede25aa7484915939ed183c791e138219d2981a8) | feat: update Android setup to include necessary packages for successful builds |
-| 15/09 19:57 | Emanuel250YT | [`c9f4933`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/c9f493323651dc0b88026bd73bb4130792325d39) | feat: implement social login flow with email verification and access code handling |
+| Date | Branch | Author | Commit | Message |
+|---|---|---|---|---|
+| 27/09 09:56 | `dev` | Emanuel250YT | [`0dc2fcd`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/0dc2fcdc46a6d39b5195b8d7254769c48d42be86) | feat(passkeys): implement passkey creation, retrieval, and status commands |
+| 27/09 00:09 | `dev` | Emanuel250YT | [`075c23b`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/075c23ba41e0aaa1647a6d8d3d5b478278f833ae) | feat: implement passkey unlock functionality |
+| 26/09 22:14 | `dev` | Emanuel250YT | [`16aeff7`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/16aeff77e74b2fee1a445515ae91328a9b2dddd8) | feat: agregar manejo de token de sesión en el proceso de inicio de sesión y recuperación |
+| 25/09 21:00 | `dev` | Emanuel250YT | [`e177362`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/e1773621bdea054b2f1b04856cb5057bff58e1f7) | feat: add OpenAPI sync script and gateway contract tests |
+| 25/09 20:44 | `dev` | Emanuel250YT | [`4151b8b`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/4151b8bdd9abba79dc2c44d2aa829e42262e0862) | feat: implement recovery process with identity tokens and email codes |
+| 25/09 18:57 | `dev` | Emanuel250YT | [`fc61913`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/fc61913c3fbf5af0e874e4d298702ff35af10fb6) | feat(signin): switch the sign-in backend with a flag, not a rewrite |
+| 24/09 17:15 | `dev` | Emanuel250YT | [`3006f4e`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/3006f4e8087ee7e676c324f5de94fa875944c03c) | feat: enhance SEP-10 and recovery features |
+| 24/09 16:10 | `dev` | Emanuel250YT | [`fe7e293`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/fe7e29332a7f04200483d47a26654b29d7dbdb50) | feat(proxy): mejorar manejo de errores en el proxy de desarrollo y optimizar dependencias |
+| 24/09 12:30 | `dev` | Emanuel250YT | [`c4d07e8`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/c4d07e8f0fcc4b908f1a14b4927de31335adec03) | Implement feature X to enhance user experience and fix bug Y in module Z |
+| 19/09 22:57 | `dev` | Emanuel250YT | [`930b7e3`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/930b7e3e2e39e79782c6fbd36f6227b8c2d64a25) | Add styles for account recovery and onboarding features |
+| 19/09 21:19 | `dev` | Emanuel250YT | [`db9314a`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/db9314ac8454cc9e64e7b1887ff9158b9f49a4a2) | feat: implement sign-in methods UI and functionality |
+| 19/09 21:19 | `dev` | Emanuel250YT | [`b0bfe48`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/b0bfe48715ca94e9a2a6ce790fba7e8a4727d298) | feat(social-login): eliminar componente y estilos de inicio de sesión social |
+| 19/09 12:00 | `dev` | Emanuel250YT | [`cb972dc`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/cb972dc6a58b43cf3a217cfb961ada11d683b09d) | feat(icon): implement dev icon handling for local builds across platforms |
+| 19/09 10:38 | `dev` | Emanuel250YT | [`9c7868b`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/9c7868be1b4f6d6958ac22d35393827d2fe8c402) | Merge pull request #75 from CosmosPay/main *(merge)* |
+| 18/09 21:38 | `main` | github-actions[bot] | [`936610e`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/936610e211dcd1eb998bd706a14c6aa7f5d9d4d6) | chore(release): v1.9.0 [skip ci] |
+| 18/09 20:28 | `main` | leocagli | [`1c2f33e`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/1c2f33e9068676d23aeed9e1bfa24545a42f87a0) | feat(marca): el nombre en la bienvenida va como lockup SVG, no tipeado |
+| 18/09 20:26 | `main` | leocagli | [`5b1958a`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/5b1958a567562bd3e751f8387bd276e58cd5d267) | feat(marca): la wallet pasa a la identidad nueva de Cosmos |
+| 16/09 12:56 | `dev` | Emanuel250YT | [`4915101`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/49151015d36bea792a3c7564cd004faa4a0b423e) | Merge pull request #74 from CosmosPay/main *(merge)* |
+| 16/09 12:54 | `main` | github-actions[bot] | [`20df981`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/20df9813a615d900f6fd7e1186396c4341386660) | chore(release): v1.8.0 [skip ci] |
+| 16/09 12:51 | `main` | Emanuel250YT | [`80c1f57`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/80c1f57a6fec664f912221614a5daf10c4a1a015) | Merge pull request #73 from CosmosPay/dev *(merge)* |
+| 16/09 12:27 | `main` | Emanuel250YT | [`ede25aa`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/ede25aa7484915939ed183c791e138219d2981a8) | feat: update Android setup to include necessary packages for successful builds |
+| 15/09 19:57 | `main` | Emanuel250YT | [`c9f4933`](https://github.com/CosmosPay/CosmosPay-Wallet/commit/c9f493323651dc0b88026bd73bb4130792325d39) | feat: implement social login flow with email verification and access code handling |
 
 ### CosmosPay-Community-Server
 
 Community Server (API) — working branch: `dev`
 
-#### On `dev`, not on `main` yet (11 commits + 1 merges)
+**30 commits** (26 commits + 4 merges)
 
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 27/09 00:09 | Emanuel250YT | [`d446d02`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/d446d02b2c9171bc86a5dec76538d1557d21efbd) | feat(wallet-auth): implement v3 backup box structure supporting password and passkey slots |
-| 26/09 23:07 | Emanuel250YT | [`8c055bc`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/8c055bcd3d7124287ce767d6b007c66fda69209f) | feat(wallet-auth): implement max_age for Authentik sign-in flow to enhance security |
-| 26/09 22:13 | Emanuel250YT | [`c9490ad`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/c9490ad8a25587a0e1721b7671ff53a165de07fd) | feat(wallet-auth): handle unverified emails in Authentik sign-in flow |
-| 25/09 21:00 | Emanuel250YT | [`0811412`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/081141216e83d32f6f45425309d5739cc3e7454e) | feat(recovery): implement SEP-30 security scheme for account routes in OpenAPI |
-| 25/09 20:44 | Emanuel250YT | [`c47422a`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/c47422aa8f8043cd3511da100adb09c4ff5cd2e6) | feat: add support for Authentik as an OIDC provider |
-| 25/09 19:21 | Emanuel250YT | [`1a93099`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/1a93099703bfadd25bd2ce5de589629f6a68502a) | refactor(wallet-auth): keep the console legs inside the wallet namespace |
-| 25/09 19:12 | Emanuel250YT | [`813b069`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/813b06923284457c12361711038c2fecbc1bc895) | refactor(wallet-auth): send the display name to the provisioner |
-| 25/09 18:59 | Emanuel250YT | [`ae3ec36`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/ae3ec362c8d8e72da6e2babc3b8c149d3de5a159) | fix(wallet-auth): match the wire contract the wallet actually sends |
-| 25/09 18:46 | Emanuel250YT | [`3abb392`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/3abb3923607a56e04eaa9df6243bd19361a17704) | feat(wallet-auth): serve the wallet's own sign-in from the community server |
-| 24/09 12:30 | Emanuel250YT | [`afb37ec`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/afb37ecef5a82ed2431c9fb329bb286f703ea810) | feat: add AGENTS.md with repository conventions and guidelines |
-| 17/09 22:13 | Emanuel250YT | [`68cdd89`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/68cdd89a3686f1d4b0392ccd6bd9bd5cbcb80457) | feat: add Swagger tests and enhance OpenAPI documentation |
-| 16/09 12:53 | Emanuel250YT | [`daee830`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/daee83049609f872a5d371ec5b90fd0e0fbcd68e) | Merge pull request #89 from CosmosPay/main *(merge)* |
-
-#### On `dev`, already shipped to `main` (15 commits + 3 merges)
-
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 16/09 12:51 | github-actions[bot] | [`069be48`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/069be488bce32e7da227c6ca79f4d0bb34c6f268) | chore(release): v1.3.0 [skip ci] |
-| 16/09 12:49 | Emanuel250YT | [`8815528`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/881552816568b41f795fcacf7e1428c36bab2bb2) | Merge pull request #88 from CosmosPay/dev *(merge)* |
-| 16/09 00:20 | Emanuel250YT | [`876a46b`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/876a46b0334ca318413e23a34a5a1f6a88e6bb11) | feat: implement stored envelope handling for Stellar transactions |
-| 15/09 19:59 | Emanuel250YT | [`2b19c55`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/2b19c55fa0d3aba1fc78f8f3e9d7d9c0e1ac0dd6) | feat(pollar): enhance OAuth session handling and user registration |
-| 15/09 18:43 | Emanuel250YT | [`04147e5`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/04147e5a7448dcbfec3df1eadcf55e3083ca4c04) | feat: update API documentation for receiver updates with elevated key requirements |
-| 15/09 18:03 | Emanuel250YT | [`8013ca0`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/8013ca0a14a8776a3be07e9d864043b7ab0914f1) | feat(tests): add end-to-end tests for payment intents txHash handling |
-| 15/09 09:36 | github-actions[bot] | [`c0f91c5`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/c0f91c5e3856d4a58a2da3b3dbb7a0e180e1b59a) | chore(release): v1.2.0 [skip ci] |
-| 15/09 09:34 | Emanuel250YT | [`92bebf4`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/92bebf404ff7010a9a32d262ff79614d68486bca) | Merge pull request #87 from CosmosPay/dev *(merge)* |
-| 15/09 09:28 | Emanuel250YT | [`e0ca53e`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/e0ca53ed2f03fc8e16043b28dd2956443de3aca4) | Refactor code structure for improved readability and maintainability |
-| 15/09 08:35 | Emanuel250YT | [`9792312`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/97923122ea911839e1b3e9f0a4841b40640b67e4) | feat: add unit tests for Blindpay webhooks controller |
-| 15/09 08:35 | Emanuel250YT | [`878ad1e`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/878ad1e3980485fdecec6b8c09062d627a9b2ff7) | refactor: replace $transaction with Promise.all for improved performance and consistency |
-| 15/09 02:09 | Emanuel250YT | [`d28299c`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/d28299c861f1294c927399ff3d7d9cd4b2aea737) | feat: implement SignedTransactionRelay service for relaying signed transactions |
-| 14/09 20:10 | Emanuel250YT | [`8a8e7d5`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/8a8e7d566ac69572fa1fe5bce3f0dc941d93f6a4) | feat(wallets): enhance wallet ownership verification and provisioning logic |
-| 14/09 20:10 | Emanuel250YT | [`dab0dd0`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/dab0dd00414ee44869fa68cd09d6a1a9537c6a54) | refactor: eliminar archivos de evidencia obsoletos relacionados con la lista blanca de URL de redirección KYC |
-| 13/09 14:12 | github-actions[bot] | [`d5e29db`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/d5e29dbd62b5e7f5adf163440a76ab13a11eddab) | chore(release): v1.1.1 [skip ci] |
-| 13/09 14:10 | Emanuel250YT | [`428d88a`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/428d88a8f00b3c27b1f47eb3d352a8addb43d345) | Merge pull request #86 from CosmosPay/dev *(merge)* |
-| 13/09 13:46 | Emanuel250YT | [`2ac9abd`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/2ac9abda604b7ce47be1217cfd31cabe1fa8473c) | refactor: remove deprecated admin API credentials section from .env.example |
-| 13/09 13:18 | Emanuel250YT | [`ad028aa`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/ad028aa9e1868bb5055dce3f6a5ee237990631f8) | refactor: remove admin credentials and switch to console-based authorization |
+| Date | Branch | Author | Commit | Message |
+|---|---|---|---|---|
+| 27/09 00:09 | `dev` | Emanuel250YT | [`d446d02`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/d446d02b2c9171bc86a5dec76538d1557d21efbd) | feat(wallet-auth): implement v3 backup box structure supporting password and passkey slots |
+| 26/09 23:07 | `dev` | Emanuel250YT | [`8c055bc`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/8c055bcd3d7124287ce767d6b007c66fda69209f) | feat(wallet-auth): implement max_age for Authentik sign-in flow to enhance security |
+| 26/09 22:13 | `dev` | Emanuel250YT | [`c9490ad`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/c9490ad8a25587a0e1721b7671ff53a165de07fd) | feat(wallet-auth): handle unverified emails in Authentik sign-in flow |
+| 25/09 21:00 | `dev` | Emanuel250YT | [`0811412`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/081141216e83d32f6f45425309d5739cc3e7454e) | feat(recovery): implement SEP-30 security scheme for account routes in OpenAPI |
+| 25/09 20:44 | `dev` | Emanuel250YT | [`c47422a`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/c47422aa8f8043cd3511da100adb09c4ff5cd2e6) | feat: add support for Authentik as an OIDC provider |
+| 25/09 19:21 | `dev` | Emanuel250YT | [`1a93099`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/1a93099703bfadd25bd2ce5de589629f6a68502a) | refactor(wallet-auth): keep the console legs inside the wallet namespace |
+| 25/09 19:12 | `dev` | Emanuel250YT | [`813b069`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/813b06923284457c12361711038c2fecbc1bc895) | refactor(wallet-auth): send the display name to the provisioner |
+| 25/09 18:59 | `dev` | Emanuel250YT | [`ae3ec36`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/ae3ec362c8d8e72da6e2babc3b8c149d3de5a159) | fix(wallet-auth): match the wire contract the wallet actually sends |
+| 25/09 18:46 | `dev` | Emanuel250YT | [`3abb392`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/3abb3923607a56e04eaa9df6243bd19361a17704) | feat(wallet-auth): serve the wallet's own sign-in from the community server |
+| 24/09 12:30 | `dev` | Emanuel250YT | [`afb37ec`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/afb37ecef5a82ed2431c9fb329bb286f703ea810) | feat: add AGENTS.md with repository conventions and guidelines |
+| 17/09 22:13 | `dev` | Emanuel250YT | [`68cdd89`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/68cdd89a3686f1d4b0392ccd6bd9bd5cbcb80457) | feat: add Swagger tests and enhance OpenAPI documentation |
+| 16/09 12:53 | `dev` | Emanuel250YT | [`daee830`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/daee83049609f872a5d371ec5b90fd0e0fbcd68e) | Merge pull request #89 from CosmosPay/main *(merge)* |
+| 16/09 12:51 | `main` | github-actions[bot] | [`069be48`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/069be488bce32e7da227c6ca79f4d0bb34c6f268) | chore(release): v1.3.0 [skip ci] |
+| 16/09 12:49 | `main` | Emanuel250YT | [`8815528`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/881552816568b41f795fcacf7e1428c36bab2bb2) | Merge pull request #88 from CosmosPay/dev *(merge)* |
+| 16/09 00:20 | `main` | Emanuel250YT | [`876a46b`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/876a46b0334ca318413e23a34a5a1f6a88e6bb11) | feat: implement stored envelope handling for Stellar transactions |
+| 15/09 19:59 | `main` | Emanuel250YT | [`2b19c55`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/2b19c55fa0d3aba1fc78f8f3e9d7d9c0e1ac0dd6) | feat(pollar): enhance OAuth session handling and user registration |
+| 15/09 18:43 | `main` | Emanuel250YT | [`04147e5`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/04147e5a7448dcbfec3df1eadcf55e3083ca4c04) | feat: update API documentation for receiver updates with elevated key requirements |
+| 15/09 18:03 | `main` | Emanuel250YT | [`8013ca0`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/8013ca0a14a8776a3be07e9d864043b7ab0914f1) | feat(tests): add end-to-end tests for payment intents txHash handling |
+| 15/09 09:36 | `main` | github-actions[bot] | [`c0f91c5`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/c0f91c5e3856d4a58a2da3b3dbb7a0e180e1b59a) | chore(release): v1.2.0 [skip ci] |
+| 15/09 09:34 | `main` | Emanuel250YT | [`92bebf4`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/92bebf404ff7010a9a32d262ff79614d68486bca) | Merge pull request #87 from CosmosPay/dev *(merge)* |
+| 15/09 09:28 | `main` | Emanuel250YT | [`e0ca53e`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/e0ca53ed2f03fc8e16043b28dd2956443de3aca4) | Refactor code structure for improved readability and maintainability |
+| 15/09 08:35 | `main` | Emanuel250YT | [`9792312`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/97923122ea911839e1b3e9f0a4841b40640b67e4) | feat: add unit tests for Blindpay webhooks controller |
+| 15/09 08:35 | `main` | Emanuel250YT | [`878ad1e`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/878ad1e3980485fdecec6b8c09062d627a9b2ff7) | refactor: replace $transaction with Promise.all for improved performance and consistency |
+| 15/09 02:09 | `main` | Emanuel250YT | [`d28299c`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/d28299c861f1294c927399ff3d7d9cd4b2aea737) | feat: implement SignedTransactionRelay service for relaying signed transactions |
+| 14/09 20:10 | `main` | Emanuel250YT | [`8a8e7d5`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/8a8e7d566ac69572fa1fe5bce3f0dc941d93f6a4) | feat(wallets): enhance wallet ownership verification and provisioning logic |
+| 14/09 20:10 | `main` | Emanuel250YT | [`dab0dd0`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/dab0dd00414ee44869fa68cd09d6a1a9537c6a54) | refactor: eliminar archivos de evidencia obsoletos relacionados con la lista blanca de URL de redirección KYC |
+| 13/09 14:12 | `main` | github-actions[bot] | [`d5e29db`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/d5e29dbd62b5e7f5adf163440a76ab13a11eddab) | chore(release): v1.1.1 [skip ci] |
+| 13/09 14:10 | `main` | Emanuel250YT | [`428d88a`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/428d88a8f00b3c27b1f47eb3d352a8addb43d345) | Merge pull request #86 from CosmosPay/dev *(merge)* |
+| 13/09 13:46 | `main` | Emanuel250YT | [`2ac9abd`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/2ac9abda604b7ce47be1217cfd31cabe1fa8473c) | refactor: remove deprecated admin API credentials section from .env.example |
+| 13/09 13:18 | `main` | Emanuel250YT | [`ad028aa`](https://github.com/CosmosPay/CosmosPay-Community-Server/commit/ad028aa9e1868bb5055dce3f6a5ee237990631f8) | refactor: remove admin credentials and switch to console-based authorization |
 
 ### CosmosPay-Developer-Platform
 
 Developer Platform (console and docs) — working branch: `dev`
 
-#### On `dev`, not on `main` yet (14 commits + 1 merges)
+**32 commits** (25 commits + 7 merges)
 
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 26/09 23:07 | Emanuel250YT | [`f8b1e3b`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/f8b1e3b27b5db557c9c5c1fa2c1526fe9e289032) | feat: update wallet auth API descriptions to clarify session token usage and email verification process |
-| 26/09 22:13 | Emanuel250YT | [`284b005`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/284b0054d5cb27747b2736ba53340006f9cc46f5) | feat: add AliasManager and AssetManager documentation; update Client and PaymentIntentManager with new methods |
-| 25/09 20:59 | Emanuel250YT | [`409455e`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/409455e30641d8bc73240514a101005bc5adc70a) | feat: enhance OpenAPI spec with security definitions and public routes |
-| 25/09 20:43 | Emanuel250YT | [`670267a`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/670267aa932d25b65b978311d178d11c0bf9cac3) | feat: implement recovery code API endpoint and associated schema |
-| 25/09 20:43 | Emanuel250YT | [`b8f7b7f`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/b8f7b7f7b8bf8e40ab19856d80e5951a72ee47a4) | Add unit tests for wallet authentication and remove obsolete recovery and SEP-10 tests |
-| 25/09 19:21 | Emanuel250YT | [`bec268d`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/bec268d54e69d02cdf4a532dd837653124c5f33b) | refactor(wallet-auth): move the console legs under api/wallet/ |
-| 25/09 19:10 | Emanuel250YT | [`e31d960`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/e31d9605619a957d8e369dbcec355709f7e0c22c) | feat(wallet-auth): serve the two console legs the community server hands back |
-| 24/09 17:15 | Emanuel250YT | [`1c2e72f`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/1c2e72f45c0bb97ea5192e7d6dcda517afa88088) | feat: enhance recovery API with SEP-30 compliance and improve error handling |
-| 24/09 17:14 | Emanuel250YT | [`94886e2`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/94886e2c635de8b1a1f490258c2a9bcf185f9fc5) | feat: implement pagination for accounts listing and add SEP-30 response handling |
-| 24/09 16:10 | Emanuel250YT | [`b55ad6e`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/b55ad6e008623e0f9ff0b39ccb684e2e106ec545) | Implement feature X to enhance user experience and fix bug Y in module Z |
-| 24/09 12:30 | Emanuel250YT | [`cb372b2`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/cb372b2d47197433ea436b87425f0d268f52ace9) | feat: add AGENTS.md for API documentation and development guidelines |
-| 19/09 22:56 | Emanuel250YT | [`7d89383`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/7d893835a672c1f0d736fc7799e778d2cc98cc03) | feat: implement SEP-10 Stellar Web Authentication and SEP-30 account recovery |
-| 19/09 21:19 | Emanuel250YT | [`0acb506`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/0acb506febecc002131d208cb7326d67cc27e262) | feat: implement OAuth authentication flow for wallet sign-in |
-| 17/09 19:37 | Emanuel250YT | [`25b156b`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/25b156b0f5c380e8e1240d2bcf0f0714fc878198) | refactor: update Zod imports to use extended version from openapi library |
-| 16/09 12:55 | Emanuel250YT | [`234ce46`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/234ce46a964756253e1d25353210aa3aee9cacc5) | Merge pull request #47 from CosmosPay/main *(merge)* |
-
-#### On `dev`, already shipped to `main` (11 commits + 6 merges)
-
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 16/09 12:52 | github-actions[bot] | [`bcadcc7`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/bcadcc795ee21bcb8a1944708ba2766b02115c25) | chore(release): v0.3.0 [skip ci] |
-| 16/09 12:50 | Emanuel250YT | [`e388ed0`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/e388ed04b2f86d197511b1b9d83c15de7b7699cc) | Merge pull request #46 from CosmosPay/dev *(merge)* |
-| 16/09 12:27 | Emanuel250YT | [`5aeb5a0`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/5aeb5a0626cd6d74d7367933b64ea5ab9d3f5363) | feat: add dossierVersion and reviewedVersion properties to Receiver documentation |
-| 16/09 00:55 | Emanuel250YT | [`cf202fb`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/cf202fb3fc0a7613c7b8598b750afdb81b34b6b4) | feat: add expected_version to receiver approval process and update related schemas |
-| 15/09 19:57 | Emanuel250YT | [`e04de5a`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/e04de5a9fd98fd76bb0f4018f8023f1439d305ce) | feat: implement social login email verification process |
-| 15/09 18:42 | Emanuel250YT | [`f85cc92`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/f85cc92373198ef3eefb519874f862c3fe95fce7) | Refactor code structure for improved readability and maintainability |
-| 13/09 14:07 | github-actions[bot] | [`c977ba3`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/c977ba350399e7476109eecf779bfb2ec6e1a22d) | chore(release): v0.2.2 [skip ci] |
-| 13/09 14:06 | Emanuel250YT | [`b2a59b3`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/b2a59b336d3e74ca911b4098e042a4133cc80f73) | Merge pull request #45 from CosmosPay/dev *(merge)* |
-| 13/09 14:00 | Emanuel250YT | [`cf72b25`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/cf72b25d3f2721af8549b38b85d72876a6725ad9) | refactor: migrate search client from Orama to ZBSearch and update related functions |
-| 13/09 13:46 | Emanuel250YT | [`46044a0`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/46044a0dce6de47a76310bf3ed0bec21cfb6faf4) | refactor: remove deprecated Payments API admin secrets from environment example |
-| 13/09 13:28 | Emanuel250YT | [`08bd1f8`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/08bd1f802b9c1c06ed265aa09c740ae7e5594f21) | Merge pull request #44 from CosmosPay/main *(merge)* |
-| 13/09 13:24 | Emanuel250YT | [`0d509d7`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/0d509d70c4e6b6d1da3953e19a74144cddc9fe18) | Merge pull request #41 from CosmosPay/dependabot/npm_and_yarn/asteasolutions/zod-to-openapi-9.1.0 *(merge)* |
-| 13/09 13:23 | Emanuel250YT | [`419b046`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/419b0460f64e47daf87b9b0e41247c71bdcd9330) | Merge pull request #42 from CosmosPay/dependabot/npm_and_yarn/docs/minor-and-patch-10c7a64163 *(merge)* |
-| 13/09 13:22 | Emanuel250YT | [`616a129`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/616a129e773776442d961b330591abd3104f9c51) | Merge pull request #43 from CosmosPay/dev *(merge)* |
-| 13/09 13:16 | Emanuel250YT | [`6e08f2c`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/6e08f2c95acb166896ec50813d59e633de974034) | refactor: remove deprecated admin API secrets and update proxy handling for Payments API |
-| 12/09 20:54 | dependabot[bot] | [`6b197e3`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/6b197e3e1e037f1a86e8adef8b655a1a61374ace) | chore: bump the minor-and-patch group in /docs with 12 updates |
-| 12/09 20:53 | dependabot[bot] | [`9ea9adc`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/9ea9adc80cf0953a2d2e53522a9478980decfbea) | chore: bump @asteasolutions/zod-to-openapi from 8.5.0 to 9.1.0 |
+| Date | Branch | Author | Commit | Message |
+|---|---|---|---|---|
+| 26/09 23:07 | `dev` | Emanuel250YT | [`f8b1e3b`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/f8b1e3b27b5db557c9c5c1fa2c1526fe9e289032) | feat: update wallet auth API descriptions to clarify session token usage and email verification process |
+| 26/09 22:13 | `dev` | Emanuel250YT | [`284b005`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/284b0054d5cb27747b2736ba53340006f9cc46f5) | feat: add AliasManager and AssetManager documentation; update Client and PaymentIntentManager with new methods |
+| 25/09 20:59 | `dev` | Emanuel250YT | [`409455e`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/409455e30641d8bc73240514a101005bc5adc70a) | feat: enhance OpenAPI spec with security definitions and public routes |
+| 25/09 20:43 | `dev` | Emanuel250YT | [`670267a`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/670267aa932d25b65b978311d178d11c0bf9cac3) | feat: implement recovery code API endpoint and associated schema |
+| 25/09 20:43 | `dev` | Emanuel250YT | [`b8f7b7f`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/b8f7b7f7b8bf8e40ab19856d80e5951a72ee47a4) | Add unit tests for wallet authentication and remove obsolete recovery and SEP-10 tests |
+| 25/09 19:21 | `dev` | Emanuel250YT | [`bec268d`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/bec268d54e69d02cdf4a532dd837653124c5f33b) | refactor(wallet-auth): move the console legs under api/wallet/ |
+| 25/09 19:10 | `dev` | Emanuel250YT | [`e31d960`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/e31d9605619a957d8e369dbcec355709f7e0c22c) | feat(wallet-auth): serve the two console legs the community server hands back |
+| 24/09 17:15 | `dev` | Emanuel250YT | [`1c2e72f`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/1c2e72f45c0bb97ea5192e7d6dcda517afa88088) | feat: enhance recovery API with SEP-30 compliance and improve error handling |
+| 24/09 17:14 | `dev` | Emanuel250YT | [`94886e2`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/94886e2c635de8b1a1f490258c2a9bcf185f9fc5) | feat: implement pagination for accounts listing and add SEP-30 response handling |
+| 24/09 16:10 | `dev` | Emanuel250YT | [`b55ad6e`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/b55ad6e008623e0f9ff0b39ccb684e2e106ec545) | Implement feature X to enhance user experience and fix bug Y in module Z |
+| 24/09 12:30 | `dev` | Emanuel250YT | [`cb372b2`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/cb372b2d47197433ea436b87425f0d268f52ace9) | feat: add AGENTS.md for API documentation and development guidelines |
+| 19/09 22:56 | `dev` | Emanuel250YT | [`7d89383`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/7d893835a672c1f0d736fc7799e778d2cc98cc03) | feat: implement SEP-10 Stellar Web Authentication and SEP-30 account recovery |
+| 19/09 21:19 | `dev` | Emanuel250YT | [`0acb506`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/0acb506febecc002131d208cb7326d67cc27e262) | feat: implement OAuth authentication flow for wallet sign-in |
+| 17/09 19:37 | `dev` | Emanuel250YT | [`25b156b`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/25b156b0f5c380e8e1240d2bcf0f0714fc878198) | refactor: update Zod imports to use extended version from openapi library |
+| 16/09 12:55 | `dev` | Emanuel250YT | [`234ce46`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/234ce46a964756253e1d25353210aa3aee9cacc5) | Merge pull request #47 from CosmosPay/main *(merge)* |
+| 16/09 12:52 | `main` | github-actions[bot] | [`bcadcc7`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/bcadcc795ee21bcb8a1944708ba2766b02115c25) | chore(release): v0.3.0 [skip ci] |
+| 16/09 12:50 | `main` | Emanuel250YT | [`e388ed0`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/e388ed04b2f86d197511b1b9d83c15de7b7699cc) | Merge pull request #46 from CosmosPay/dev *(merge)* |
+| 16/09 12:27 | `main` | Emanuel250YT | [`5aeb5a0`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/5aeb5a0626cd6d74d7367933b64ea5ab9d3f5363) | feat: add dossierVersion and reviewedVersion properties to Receiver documentation |
+| 16/09 00:55 | `main` | Emanuel250YT | [`cf202fb`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/cf202fb3fc0a7613c7b8598b750afdb81b34b6b4) | feat: add expected_version to receiver approval process and update related schemas |
+| 15/09 19:57 | `main` | Emanuel250YT | [`e04de5a`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/e04de5a9fd98fd76bb0f4018f8023f1439d305ce) | feat: implement social login email verification process |
+| 15/09 18:42 | `main` | Emanuel250YT | [`f85cc92`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/f85cc92373198ef3eefb519874f862c3fe95fce7) | Refactor code structure for improved readability and maintainability |
+| 13/09 14:07 | `main` | github-actions[bot] | [`c977ba3`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/c977ba350399e7476109eecf779bfb2ec6e1a22d) | chore(release): v0.2.2 [skip ci] |
+| 13/09 14:06 | `main` | Emanuel250YT | [`b2a59b3`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/b2a59b336d3e74ca911b4098e042a4133cc80f73) | Merge pull request #45 from CosmosPay/dev *(merge)* |
+| 13/09 14:00 | `main` | Emanuel250YT | [`cf72b25`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/cf72b25d3f2721af8549b38b85d72876a6725ad9) | refactor: migrate search client from Orama to ZBSearch and update related functions |
+| 13/09 13:46 | `main` | Emanuel250YT | [`46044a0`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/46044a0dce6de47a76310bf3ed0bec21cfb6faf4) | refactor: remove deprecated Payments API admin secrets from environment example |
+| 13/09 13:28 | `main` | Emanuel250YT | [`08bd1f8`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/08bd1f802b9c1c06ed265aa09c740ae7e5594f21) | Merge pull request #44 from CosmosPay/main *(merge)* |
+| 13/09 13:24 | `main` | Emanuel250YT | [`0d509d7`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/0d509d70c4e6b6d1da3953e19a74144cddc9fe18) | Merge pull request #41 from CosmosPay/dependabot/npm_and_yarn/asteasolutions/zod-to-openapi-9.1.0 *(merge)* |
+| 13/09 13:23 | `main` | Emanuel250YT | [`419b046`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/419b0460f64e47daf87b9b0e41247c71bdcd9330) | Merge pull request #42 from CosmosPay/dependabot/npm_and_yarn/docs/minor-and-patch-10c7a64163 *(merge)* |
+| 13/09 13:22 | `main` | Emanuel250YT | [`616a129`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/616a129e773776442d961b330591abd3104f9c51) | Merge pull request #43 from CosmosPay/dev *(merge)* |
+| 13/09 13:16 | `main` | Emanuel250YT | [`6e08f2c`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/6e08f2c95acb166896ec50813d59e633de974034) | refactor: remove deprecated admin API secrets and update proxy handling for Payments API |
+| 12/09 20:54 | `main` | dependabot[bot] | [`6b197e3`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/6b197e3e1e037f1a86e8adef8b655a1a61374ace) | chore: bump the minor-and-patch group in /docs with 12 updates |
+| 12/09 20:53 | `main` | dependabot[bot] | [`9ea9adc`](https://github.com/CosmosPay/CosmosPay-Developer-Platform/commit/9ea9adc80cf0953a2d2e53522a9478980decfbea) | chore: bump @asteasolutions/zod-to-openapi from 8.5.0 to 9.1.0 |
 
 ### CosmosJS_SDK
 
 JavaScript SDK — working branch: `dev`
 
-#### On `dev`, not on `main` yet (1 commits + 1 merges)
+**8 commits** (5 commits + 3 merges)
 
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 25/09 21:00 | Emanuel250YT | [`74e88b1`](https://github.com/CosmosPay/CosmosJS_SDK/commit/74e88b11fc59033876d6ba7990cfa6300ea124be) | feat: add AliasManager and AssetManager for handling aliases and asset registry |
-| 16/09 12:50 | Emanuel250YT | [`50d35d1`](https://github.com/CosmosPay/CosmosJS_SDK/commit/50d35d19ae902970767e13998b00e39711ce8e70) | Merge pull request #11 from CosmosPay/main *(merge)* |
-
-#### On `dev`, already shipped to `main` (4 commits + 2 merges)
-
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 16/09 12:30 | github-actions[bot] | [`65c34e9`](https://github.com/CosmosPay/CosmosJS_SDK/commit/65c34e96f083e4721d1b6593e3ba6ac819e1fed1) | chore(release): v2.0.0 [skip ci] |
-| 16/09 12:29 | Emanuel250YT | [`5fc83cf`](https://github.com/CosmosPay/CosmosJS_SDK/commit/5fc83cfc0c961f63a95ca7c4ac8ab4aec692180b) | Merge pull request #10 from CosmosPay/dependabot/npm_and_yarn/minor-and-patch-ce6036253e *(merge)* |
-| 16/09 12:28 | Emanuel250YT | [`091ef13`](https://github.com/CosmosPay/CosmosJS_SDK/commit/091ef13f00f5de5f2d8fc06f2cc4a5086085048d) | Merge pull request #5 from CosmosPay/dev *(merge)* |
-| 16/09 00:55 | Emanuel250YT | [`14689d1`](https://github.com/CosmosPay/CosmosJS_SDK/commit/14689d13014a090ed9081cdec7283fc6204f1671) | feat: add dossierVersion and reviewedVersion to Receiver class and update approval logic |
-| 16/09 00:21 | Emanuel250YT | [`d80aa11`](https://github.com/CosmosPay/CosmosJS_SDK/commit/d80aa11473e372310bbce151e1644b79b07ae249) | feat: update PollarManager documentation to clarify session handling and user registration requirements |
-| 15/09 18:47 | Emanuel250YT | [`0e9ba8b`](https://github.com/CosmosPay/CosmosJS_SDK/commit/0e9ba8b8cab8a2fb3f0b366092e9c87af8f11231) | feat!: follow the payments API security contract changes |
+| Date | Branch | Author | Commit | Message |
+|---|---|---|---|---|
+| 25/09 21:00 | `dev` | Emanuel250YT | [`74e88b1`](https://github.com/CosmosPay/CosmosJS_SDK/commit/74e88b11fc59033876d6ba7990cfa6300ea124be) | feat: add AliasManager and AssetManager for handling aliases and asset registry |
+| 16/09 12:50 | `dev` | Emanuel250YT | [`50d35d1`](https://github.com/CosmosPay/CosmosJS_SDK/commit/50d35d19ae902970767e13998b00e39711ce8e70) | Merge pull request #11 from CosmosPay/main *(merge)* |
+| 16/09 12:30 | `main` | github-actions[bot] | [`65c34e9`](https://github.com/CosmosPay/CosmosJS_SDK/commit/65c34e96f083e4721d1b6593e3ba6ac819e1fed1) | chore(release): v2.0.0 [skip ci] |
+| 16/09 12:29 | `main` | Emanuel250YT | [`5fc83cf`](https://github.com/CosmosPay/CosmosJS_SDK/commit/5fc83cfc0c961f63a95ca7c4ac8ab4aec692180b) | Merge pull request #10 from CosmosPay/dependabot/npm_and_yarn/minor-and-patch-ce6036253e *(merge)* |
+| 16/09 12:28 | `main` | Emanuel250YT | [`091ef13`](https://github.com/CosmosPay/CosmosJS_SDK/commit/091ef13f00f5de5f2d8fc06f2cc4a5086085048d) | Merge pull request #5 from CosmosPay/dev *(merge)* |
+| 16/09 00:55 | `main` | Emanuel250YT | [`14689d1`](https://github.com/CosmosPay/CosmosJS_SDK/commit/14689d13014a090ed9081cdec7283fc6204f1671) | feat: add dossierVersion and reviewedVersion to Receiver class and update approval logic |
+| 16/09 00:21 | `main` | Emanuel250YT | [`d80aa11`](https://github.com/CosmosPay/CosmosJS_SDK/commit/d80aa11473e372310bbce151e1644b79b07ae249) | feat: update PollarManager documentation to clarify session handling and user registration requirements |
+| 15/09 18:47 | `main` | Emanuel250YT | [`0e9ba8b`](https://github.com/CosmosPay/CosmosJS_SDK/commit/0e9ba8b8cab8a2fb3f0b366092e9c87af8f11231) | feat!: follow the payments API security contract changes |
 
 ### Cosmos-frontend
 
 Agency frontend / landing — working branch: `main` (the repo has no `dev` branch)
 
-#### Commits on `main` (14 commits)
+**14 commits** (14 commits + 0 merges)
 
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 23/09 23:16 | leocagli | [`60bf7fb`](https://github.com/CosmosPay/Cosmos-frontend/commit/60bf7fbacd8ec375bb353fdb43f1448cfcc4bbaf) | fix(panel): que un grafico roto no deje /panel en blanco |
-| 18/09 22:59 | leocagli | [`c28a66a`](https://github.com/CosmosPay/Cosmos-frontend/commit/c28a66ab8a7257e80140626f753232eb4ab0d3ca) | chore(config): backend nuevo api.cosmosapp.lat y host cosmosapp.lat |
-| 18/09 21:30 | leocagli | [`23a9835`](https://github.com/CosmosPay/Cosmos-frontend/commit/23a98358094fb9eed89d59bf55ba3ef65cb3eea2) | fix(i18n): bandera argentina para el castellano, no la mexicana |
-| 18/09 19:09 | leocagli | [`a55b067`](https://github.com/CosmosPay/Cosmos-frontend/commit/a55b06757452ff10257f8cce6c2a417bcd71f951) | rebrand(marca): la spec del personaje oficial y el aviso de POI Aeronaut |
-| 18/09 19:09 | leocagli | [`a21aa0b`](https://github.com/CosmosPay/Cosmos-frontend/commit/a21aa0b16d4628a73be0e089de113c02d2646403) | rebrand(fix3): otro compas para /06 y el personaje oficial en /04 |
-| 18/09 18:40 | leocagli | [`445ce6a`](https://github.com/CosmosPay/Cosmos-frontend/commit/445ce6af16b7bc2fcb84c53344affa6ceab9b41c) | rebrand(activos): versionar el personaje oficial de la agencia |
-| 18/09 18:39 | leocagli | [`f7c43bc`](https://github.com/CosmosPay/Cosmos-frontend/commit/f7c43bca68468e25c0d2d6cb4be1c4c0ea5803a6) | rebrand(landing): seccion /06 con la wallet y la plataforma de Cosmos Pay |
-| 18/09 14:18 | leocagli | [`65cdff1`](https://github.com/CosmosPay/Cosmos-frontend/commit/65cdff19f1b27e07deb8556048b4f53a7a269839) | rebrand(barrido): sacar la marca vieja de las paginas interiores |
-| 18/09 13:51 | leocagli | [`8d2cadf`](https://github.com/CosmosPay/Cosmos-frontend/commit/8d2cadf3d0501922affd2aa5d120db2e0cfd71d5) | rebrand(fix2): los once puntos de la segunda revision |
-| 18/09 13:02 | leocagli | [`7463a37`](https://github.com/CosmosPay/Cosmos-frontend/commit/7463a379344415f0a2004d5621e8acee68b8a39d) | rebrand(fix1): los once puntos de la primera revision |
-| 17/09 12:18 | leocagli | [`2377218`](https://github.com/CosmosPay/Cosmos-frontend/commit/2377218f9dc54a91fa9dcb5abb2e820ecb066b46) | rebrand(css): paneles con alcance propio, tipografia del deck y cinta |
-| 17/09 12:18 | leocagli | [`dae860a`](https://github.com/CosmosPay/Cosmos-frontend/commit/dae860a1d3041fd8ec73d0965920f40fef3bd9df) | rebrand(landing): siete secciones con la estructura del deck |
-| 17/09 12:18 | leocagli | [`61952c3`](https://github.com/CosmosPay/Cosmos-frontend/commit/61952c3e7e1ef1ed7b67f73e6416f146d1bd1907) | rebrand(chrome): header, buscador, footer y mockup con la piel de la marca |
-| 17/09 02:49 | leocagli | [`b54937e`](https://github.com/CosmosPay/Cosmos-frontend/commit/b54937e16d697904b6d911d71b02245b4f80aeec) | rebrand(tokens): paleta, Open Sauce One y logo SVG de la marca nueva |
+| Date | Branch | Author | Commit | Message |
+|---|---|---|---|---|
+| 23/09 23:16 | `main` | leocagli | [`60bf7fb`](https://github.com/CosmosPay/Cosmos-frontend/commit/60bf7fbacd8ec375bb353fdb43f1448cfcc4bbaf) | fix(panel): que un grafico roto no deje /panel en blanco |
+| 18/09 22:59 | `main` | leocagli | [`c28a66a`](https://github.com/CosmosPay/Cosmos-frontend/commit/c28a66ab8a7257e80140626f753232eb4ab0d3ca) | chore(config): backend nuevo api.cosmosapp.lat y host cosmosapp.lat |
+| 18/09 21:30 | `main` | leocagli | [`23a9835`](https://github.com/CosmosPay/Cosmos-frontend/commit/23a98358094fb9eed89d59bf55ba3ef65cb3eea2) | fix(i18n): bandera argentina para el castellano, no la mexicana |
+| 18/09 19:09 | `main` | leocagli | [`a55b067`](https://github.com/CosmosPay/Cosmos-frontend/commit/a55b06757452ff10257f8cce6c2a417bcd71f951) | rebrand(marca): la spec del personaje oficial y el aviso de POI Aeronaut |
+| 18/09 19:09 | `main` | leocagli | [`a21aa0b`](https://github.com/CosmosPay/Cosmos-frontend/commit/a21aa0b16d4628a73be0e089de113c02d2646403) | rebrand(fix3): otro compas para /06 y el personaje oficial en /04 |
+| 18/09 18:40 | `main` | leocagli | [`445ce6a`](https://github.com/CosmosPay/Cosmos-frontend/commit/445ce6af16b7bc2fcb84c53344affa6ceab9b41c) | rebrand(activos): versionar el personaje oficial de la agencia |
+| 18/09 18:39 | `main` | leocagli | [`f7c43bc`](https://github.com/CosmosPay/Cosmos-frontend/commit/f7c43bca68468e25c0d2d6cb4be1c4c0ea5803a6) | rebrand(landing): seccion /06 con la wallet y la plataforma de Cosmos Pay |
+| 18/09 14:18 | `main` | leocagli | [`65cdff1`](https://github.com/CosmosPay/Cosmos-frontend/commit/65cdff19f1b27e07deb8556048b4f53a7a269839) | rebrand(barrido): sacar la marca vieja de las paginas interiores |
+| 18/09 13:51 | `main` | leocagli | [`8d2cadf`](https://github.com/CosmosPay/Cosmos-frontend/commit/8d2cadf3d0501922affd2aa5d120db2e0cfd71d5) | rebrand(fix2): los once puntos de la segunda revision |
+| 18/09 13:02 | `main` | leocagli | [`7463a37`](https://github.com/CosmosPay/Cosmos-frontend/commit/7463a379344415f0a2004d5621e8acee68b8a39d) | rebrand(fix1): los once puntos de la primera revision |
+| 17/09 12:18 | `main` | leocagli | [`2377218`](https://github.com/CosmosPay/Cosmos-frontend/commit/2377218f9dc54a91fa9dcb5abb2e820ecb066b46) | rebrand(css): paneles con alcance propio, tipografia del deck y cinta |
+| 17/09 12:18 | `main` | leocagli | [`dae860a`](https://github.com/CosmosPay/Cosmos-frontend/commit/dae860a1d3041fd8ec73d0965920f40fef3bd9df) | rebrand(landing): siete secciones con la estructura del deck |
+| 17/09 12:18 | `main` | leocagli | [`61952c3`](https://github.com/CosmosPay/Cosmos-frontend/commit/61952c3e7e1ef1ed7b67f73e6416f146d1bd1907) | rebrand(chrome): header, buscador, footer y mockup con la piel de la marca |
+| 17/09 02:49 | `main` | leocagli | [`b54937e`](https://github.com/CosmosPay/Cosmos-frontend/commit/b54937e16d697904b6d911d71b02245b4f80aeec) | rebrand(tokens): paleta, Open Sauce One y logo SVG de la marca nueva |
 
 ### cosmos-backend
 
 Agency backend — working branch: `main` (the repo has no `dev` branch)
 
-#### Commits on `main` (2 commits + 3 merges)
+**5 commits** (2 commits + 3 merges)
 
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 23/09 23:57 | leocagli | [`1b792df`](https://github.com/CosmosPay/cosmos-backend/commit/1b792df0b13cb7956cd02b7d9790b7a73d6c8c8d) | Merge pull request #3 from CosmosPay/promote/snapshot-v1 *(merge)* |
-| 23/09 23:53 | leocagli | [`9ef1738`](https://github.com/CosmosPay/cosmos-backend/commit/9ef17388d1b81f8fb36eeedae4e375dbe31d209a) | merge(snapshot): traer snapshot-v1 a main *(merge)* |
-| 23/09 23:07 | leocagli | [`c70c6d7`](https://github.com/CosmosPay/cosmos-backend/commit/c70c6d742ee7d35d053e5927164c443fa479182e) | Merge pull request #2 from CosmosPay/fix/https-upload-urls-main *(merge)* |
-| 10/09 01:05 | leocagli | [`4871b88`](https://github.com/CosmosPay/cosmos-backend/commit/4871b88a4c697a3c81bb6959ab973a5ccfe265ee) | fix(deps): pull multer up to 2.3.0 on the upload path |
-| 09/09 23:50 | leocagli | [`88e9aa4`](https://github.com/CosmosPay/cosmos-backend/commit/88e9aa4df3af6a2883c94f0ef20319c5925f0f39) | fix(upload): build image URLs over https so browsers stop blocking them |
+| Date | Branch | Author | Commit | Message |
+|---|---|---|---|---|
+| 23/09 23:57 | `main` | leocagli | [`1b792df`](https://github.com/CosmosPay/cosmos-backend/commit/1b792df0b13cb7956cd02b7d9790b7a73d6c8c8d) | Merge pull request #3 from CosmosPay/promote/snapshot-v1 *(merge)* |
+| 23/09 23:53 | `main` | leocagli | [`9ef1738`](https://github.com/CosmosPay/cosmos-backend/commit/9ef17388d1b81f8fb36eeedae4e375dbe31d209a) | merge(snapshot): traer snapshot-v1 a main *(merge)* |
+| 23/09 23:07 | `main` | leocagli | [`c70c6d7`](https://github.com/CosmosPay/cosmos-backend/commit/c70c6d742ee7d35d053e5927164c443fa479182e) | Merge pull request #2 from CosmosPay/fix/https-upload-urls-main *(merge)* |
+| 10/09 01:05 | `main` | leocagli | [`4871b88`](https://github.com/CosmosPay/cosmos-backend/commit/4871b88a4c697a3c81bb6959ab973a5ccfe265ee) | fix(deps): pull multer up to 2.3.0 on the upload path |
+| 09/09 23:50 | `main` | leocagli | [`88e9aa4`](https://github.com/CosmosPay/cosmos-backend/commit/88e9aa4df3af6a2883c94f0ef20319c5925f0f39) | fix(upload): build image URLs over https so browsers stop blocking them |
 
 ### CosmosPay-Skill
 
 Agent skill — working branch: `main` (the repo has no `dev` branch)
 
-#### Commits on `main` (1 commits + 2 merges)
+**3 commits** (1 commits + 2 merges)
 
-| Date | Author | Commit | Message |
-|---|---|---|---|
-| 22/09 07:34 | Emanuel250YT | [`429a8d1`](https://github.com/CosmosPay/CosmosPay-Skill/commit/429a8d1c6d68ec65b1c715f8620e0c9a7f8a7263) | Merge pull request #1 from CosmosPay/codex/cosmospay-community-skill *(merge)* |
-| 22/09 00:44 | root | [`39f6baf`](https://github.com/CosmosPay/CosmosPay-Skill/commit/39f6bafba0404ccd81fc3af20e01f71bd60cbfe8) | feat: add CosmosPay integration skill |
-| 22/09 00:44 | root | [`d31b37e`](https://github.com/CosmosPay/CosmosPay-Skill/commit/d31b37e4e682b05bf3ec3c78ec88b2b56080beae) | chore: initialize skill repository *(merge)* |
+| Date | Branch | Author | Commit | Message |
+|---|---|---|---|---|
+| 22/09 07:34 | `main` | Emanuel250YT | [`429a8d1`](https://github.com/CosmosPay/CosmosPay-Skill/commit/429a8d1c6d68ec65b1c715f8620e0c9a7f8a7263) | Merge pull request #1 from CosmosPay/codex/cosmospay-community-skill *(merge)* |
+| 22/09 00:44 | `main` | root | [`39f6baf`](https://github.com/CosmosPay/CosmosPay-Skill/commit/39f6bafba0404ccd81fc3af20e01f71bd60cbfe8) | feat: add CosmosPay integration skill |
+| 22/09 00:44 | `main` | root | [`d31b37e`](https://github.com/CosmosPay/CosmosPay-Skill/commit/d31b37e4e682b05bf3ec3c78ec88b2b56080beae) | chore: initialize skill repository *(merge)* |
 
 ---
 
