@@ -8,6 +8,7 @@
 | 📁 [**All work so far**](https://drive.google.com/drive/folders/1o4MkIxEV5sDReQ04XtSG74anE6rMP1AV?hl=es-419) | Shared Cosmos folder with all the work done to date |
 | 🎨 [**Brandbook**](https://drive.google.com/drive/folders/1-9_LJAWzupN-8JNaEsJ-7cs6PHytv4Sg?hl=es-419) | Cosmos brand identity and brand assets |
 | ⛓️ [**Live on-chain activity**](#live-on-chain-activity--cosmos-wallet-users) | Mainnet transactions of Cosmos Wallet users |
+| 📊 [**Pitch deck**](pitch/cosmos-pay-pitch.pptx) | 3-minute product pitch, 12 slides, in Spanish ([PDF](pitch/cosmos-pay-pitch.pdf)) |
 
 ## Repositories with changes in this period
 
