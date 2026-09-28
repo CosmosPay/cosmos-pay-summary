@@ -1,4 +1,4 @@
-# Cosmos Pay — Activity Summary
+# Cosmos Pay | Activity Summary
 
 ## Useful links
 
