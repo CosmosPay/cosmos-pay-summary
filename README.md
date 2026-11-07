@@ -1,14 +1,18 @@
+<p align="center">
+  <a href="https://cosmospay.lat"><img src=".github/assets/banner.png" width="100%" alt="Cosmos Pay: stablecoin payments and a wallet for Latin America."></a>
+</p>
+
 # Cosmos Pay | Activity Summary
 
 ## Useful links
 
 | Resource | What is there |
 |---|---|
-| 🔎 [**Customer discovery**](https://drive.google.com/drive/folders/12ptY7S2VAlkPxbdrgF29zUTOs41A1qvn?usp=sharing) | Customer interviews (Cosmos Pay \| Customer Interview) |
-| 📁 [**All work so far**](https://drive.google.com/drive/folders/1o4MkIxEV5sDReQ04XtSG74anE6rMP1AV?hl=es-419) | Shared Cosmos folder with all the work done to date |
-| 🎨 [**Brandbook**](https://drive.google.com/drive/folders/1-9_LJAWzupN-8JNaEsJ-7cs6PHytv4Sg?hl=es-419) | Cosmos brand identity and brand assets |
-| ⛓️ [**Live on-chain activity**](#live-on-chain-activity--cosmos-wallet-users) | Mainnet transactions of Cosmos Wallet users |
-| 📊 [**Pitch deck**](pitch/cosmos-pay-pitch.pptx) | 3-minute product pitch, 12 slides, in Spanish ([PDF](pitch/cosmos-pay-pitch.pdf)) |
+| [**Customer discovery**](https://drive.google.com/drive/folders/12ptY7S2VAlkPxbdrgF29zUTOs41A1qvn?usp=sharing) | Customer interviews (Cosmos Pay \| Customer Interview) |
+| [**All work so far**](https://drive.google.com/drive/folders/1o4MkIxEV5sDReQ04XtSG74anE6rMP1AV?hl=es-419) | Shared Cosmos folder with all the work done to date |
+| [**Brandbook**](https://drive.google.com/drive/folders/1-9_LJAWzupN-8JNaEsJ-7cs6PHytv4Sg?hl=es-419) | Cosmos brand identity and brand assets |
+| [**Live on-chain activity**](#live-on-chain-activity--cosmos-wallet-users) | Mainnet transactions of Cosmos Wallet users |
+| [**Pitch deck**](pitch/cosmos-pay-pitch.pptx) | 3-minute product pitch, 12 slides, in Spanish ([PDF](pitch/cosmos-pay-pitch.pdf)) |
 
 ## Repositories with changes in this period
 
@@ -643,7 +647,7 @@ Branches created or active during the period. *Own commits* are commits on the b
 
 | # | Status | Opened | Merged | Author | Branches | Title |
 |---|---|---|---|---|---|---|
-| [#12](https://github.com/CosmosPay/CosmosJS_SDK/pull/12) | 🟢 open | 19/09 17:52 | — | dependabot[bot] | `dependabot/npm_and_yarn/minor-and-patch-febceb97ad` → `main` | chore: bump @types/node from 26.4.1 to 26.6.1 in the minor-and-patch group |
+| [#12](https://github.com/CosmosPay/CosmosJS_SDK/pull/12) | open | 19/09 17:52 | — | dependabot[bot] | `dependabot/npm_and_yarn/minor-and-patch-febceb97ad` → `main` | chore: bump @types/node from 26.4.1 to 26.6.1 in the minor-and-patch group |
 | [#11](https://github.com/CosmosPay/CosmosJS_SDK/pull/11) | merged | 16/09 12:50 | 16/09 12:50 | Emanuel250YT | `main` → `dev` | Implement SwapManager, enhance CI/CD, and update dependencies |
 | [#10](https://github.com/CosmosPay/CosmosJS_SDK/pull/10) | merged | 05/09 17:52 | 16/09 12:29 | dependabot[bot] | `dependabot/npm_and_yarn/minor-and-patch-ce6036253e` → `main` | chore: bump @types/node from 26.3.0 to 26.4.1 in the minor-and-patch group |
 | [#5](https://github.com/CosmosPay/CosmosJS_SDK/pull/5) | merged | 11/07 17:19 | 16/09 12:28 | Emanuel250YT | `dev` → `main` | chore: relicense the SDK to Apache-2.0 |
@@ -674,7 +678,7 @@ Branches created or active during the period. *Own commits* are commits on the b
 
 **Builds by branch:**
 
-| Branch | Total | ✅ success | ❌ failed | ⚪ cancelled |
+| Branch | Total | success | failed | cancelled |
 |---|---:|---:|---:|---:|
 | `dev` | 61 | 46 | 11 | 4 |
 | `chore/deps-latest` | 1 | 0 | 1 | 0 |
@@ -696,106 +700,106 @@ There were also 8 automated Dependabot runs.
 
 | Date | Workflow | Branch | Event | Commit | Result |
 |---|---|---|---|---|---|
-| 13/09 13:22 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/34768361256) | `dev` | pull_request | `2957822` | ✅ success |
-| 15/09 19:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35033457461) | `dev` | push | `c9f4933` | ❌ failed |
-| 15/09 19:57 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35033457494) | `dev` | push | `c9f4933` | ❌ failed |
-| 15/09 19:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35033462484) | `dev` | pull_request | `c9f4933` | ❌ failed |
-| 16/09 12:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35115436434) | `dev` | push | `ede25aa` | ✅ success |
-| 16/09 12:27 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35115436339) | `dev` | push | `ede25aa` | ✅ success |
-| 16/09 12:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35115441257) | `dev` | pull_request | `ede25aa` | ✅ success |
-| 16/09 12:56 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118647818) | `dev` | push | `4915101` | ✅ success |
-| 16/09 12:56 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118648097) | `dev` | push | `4915101` | ✅ success |
-| 19/09 10:38 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35446348209) | `dev` | push | `9c7868b` | ✅ success |
-| 19/09 10:38 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35446348228) | `dev` | push | `9c7868b` | ✅ success |
-| 19/09 12:00 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35450424826) | `dev` | push | `cb972dc` | ✅ success |
-| 19/09 12:00 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35450425057) | `dev` | push | `cb972dc` | ✅ success |
-| 19/09 21:19 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35478486714) | `dev` | push | `db9314a` | ✅ success |
-| 19/09 21:19 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35478486750) | `dev` | push | `db9314a` | ✅ success |
-| 19/09 22:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35482716226) | `dev` | push | `930b7e3` | ✅ success |
-| 19/09 22:57 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35482716244) | `dev` | push | `930b7e3` | ✅ success |
-| 24/09 12:31 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36020764968) | `dev` | push | `c4d07e8` | ✅ success |
-| 24/09 12:31 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36020764860) | `dev` | push | `c4d07e8` | ✅ success |
-| 24/09 16:10 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36046371062) | `dev` | push | `fe7e293` | ❌ failed |
-| 24/09 16:10 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36046370869) | `dev` | push | `fe7e293` | ✅ success |
-| 24/09 17:15 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36053632856) | `dev` | push | `3006f4e` | ✅ success |
-| 24/09 17:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36053632882) | `dev` | push | `3006f4e` | ✅ success |
-| 25/09 19:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36196802639) | `dev` | push | `fc61913` | ✅ success |
-| 25/09 19:27 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36196802565) | `dev` | push | `fc61913` | ✅ success |
-| 25/09 20:44 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36202173223) | `dev` | push | `4151b8b` | ✅ success |
-| 25/09 20:44 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36202173213) | `dev` | push | `4151b8b` | ✅ success |
-| 25/09 21:00 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36203167074) | `dev` | push | `e177362` | ✅ success |
-| 25/09 21:00 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36203167121) | `dev` | push | `e177362` | ✅ success |
-| 26/09 22:14 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36284918213) | `dev` | push | `16aeff7` | ❌ failed |
-| 26/09 22:14 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36284918220) | `dev` | push | `16aeff7` | ❌ failed |
-| 27/09 00:09 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36290592203) | `dev` | push | `075c23b` | ❌ failed |
-| 27/09 00:09 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36290592140) | `dev` | push | `075c23b` | ✅ success |
-| 27/09 09:56 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36320686356) | `dev` | push | `0dc2fcd` | ❌ failed |
-| 27/09 09:56 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36320686370) | `dev` | push | `0dc2fcd` | ✅ success |
-| 27/09 11:34 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36326413336) | `dev` | push | `231b8ea` | ✅ success |
-| 27/09 11:34 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36326413262) | `dev` | push | `231b8ea` | ✅ success |
-| 27/09 14:30 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36337167505) | `dev` | push | `8c3d1f8` | ✅ success |
-| 27/09 14:30 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36337167544) | `dev` | push | `8c3d1f8` | ✅ success |
-| 27/09 15:35 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341196955) | `dev` | push | `aaa4b7c` | ✅ success |
-| 27/09 15:35 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341197762) | `dev` | push | `aaa4b7c` | ✅ success |
-| 27/09 15:46 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341870106) | `dev` | push | `28127d9` | ⚪ cancelled |
-| 27/09 15:46 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341870071) | `dev` | push | `28127d9` | ✅ success |
-| 27/09 15:50 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36342163239) | `dev` | push | `f42120e` | ✅ success |
-| 27/09 15:50 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36342163443) | `dev` | push | `f42120e` | ✅ success |
-| 27/09 16:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36344392198) | `dev` | push | `8b33792` | ✅ success |
-| 27/09 16:27 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36344392189) | `dev` | push | `8b33792` | ✅ success |
-| 27/09 16:53 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346026569) | `dev` | push | `919f02f` | ✅ success |
-| 27/09 16:53 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346026621) | `dev` | push | `919f02f` | ✅ success |
-| 27/09 17:06 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346804009) | `dev` | push | `ae8cc9c` | ⚪ cancelled |
-| 27/09 17:06 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346804002) | `dev` | push | `ae8cc9c` | ✅ success |
-| 27/09 17:10 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347049906) | `dev` | push | `7287e27` | ⚪ cancelled |
-| 27/09 17:10 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347049869) | `dev` | push | `7287e27` | ⚪ cancelled |
-| 27/09 17:16 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347447158) | `dev` | push | `5267385` | ❌ failed |
-| 27/09 17:16 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347447188) | `dev` | push | `5267385` | ❌ failed |
-| 27/09 17:49 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36349454189) | `dev` | push | `02b368b` | ✅ success |
-| 27/09 17:49 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36349454158) | `dev` | push | `02b368b` | ✅ success |
-| 27/09 18:06 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36350464931) | `dev` | pull_request | `02b368b` | ❌ failed |
-| 27/09 19:44 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356323211) | `dev` | push | `c1fcbb9` | ✅ success |
-| 27/09 19:44 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356323186) | `dev` | push | `c1fcbb9` | ✅ success |
-| 27/09 19:55 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356963672) | `dev` | pull_request | `c1fcbb9` | ✅ success |
-| 27/09 17:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347386264) | `chore/deps-latest` | pull_request | `d356400` | ❌ failed |
-| 27/09 19:31 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36355584467) | `chore/sync-server-contract` | pull_request | `59be7b9` | ✅ success |
-| 22/09 13:09 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35752195645) | `codex/defindex-wallet-integration` | pull_request | `e3e1a4a` | ⚪ cancelled |
-| 22/09 13:14 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35752774549) | `codex/defindex-wallet-integration` | pull_request | `4c06df1` | ✅ success |
-| 27/09 16:53 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346024709) | `codex/defindex-wallet-integration` | pull_request | `399bc71` | ✅ success |
-| 22/09 00:34 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35683642849) | `codex/earn-protocol-directory` | pull_request | `ce4d470` | ✅ success |
-| 27/09 16:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36344389141) | `codex/earn-protocol-directory` | pull_request | `8f14244` | ✅ success |
-| 22/09 00:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682460155) | `codex/visible-modular-ramps` | pull_request | `de6570e` | ⚪ cancelled |
-| 22/09 00:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682502563) | `codex/visible-modular-ramps` | pull_request | `2991139` | ⚪ cancelled |
-| 22/09 00:21 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682856654) | `codex/visible-modular-ramps` | pull_request | `c6e3bff` | ✅ success |
-| 27/09 15:46 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341867238) | `codex/visible-modular-ramps` | pull_request | `bd5a2d7` | ✅ success |
-| 22/09 00:23 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682969291) | `codex/web-earn-route` | pull_request | `d57d36b` | ✅ success |
-| 27/09 15:50 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36342160725) | `codex/web-earn-route` | pull_request | `c851d6b` | ✅ success |
-| 26/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36268761669) | `dependabot/npm_and_yarn/astrojs/react-7.0.0` | pull_request | `fc3c7a8` | ✅ success |
-| 27/09 17:10 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347045227) | `dependabot/npm_and_yarn/astrojs/react-7.0.0` | pull_request | `a282ce2` | ✅ success |
-| 26/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36268745659) | `dependabot/npm_and_yarn/minor-and-patch-522a3e4b7e` | pull_request | `281320b` | ✅ success |
-| 27/09 16:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346213087) | `dependabot/npm_and_yarn/minor-and-patch-522a3e4b7e` | pull_request | `78af29e` | ✅ success |
-| 19/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35466714351) | `dependabot/npm_and_yarn/minor-and-patch-ed7065fa84` | pull_request | `6fbef9c` | ✅ success |
-| 19/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35466720055) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `43f3ccd` | ❌ failed |
-| 21/09 11:06 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609963468) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `c5bf56e` | ⚪ cancelled |
-| 21/09 11:09 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35610266468) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `35db486` | ❌ failed |
-| 27/09 15:24 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36340512142) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `47c78b8` | ❌ failed |
-| 27/09 15:31 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36340965898) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `4ec9ae0` | ✅ success |
-| 27/09 17:42 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36349021035) | `fix/android-compile-sdk-36` | pull_request | `5b21bc0` | ✅ success |
-| 16/09 12:51 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118154220) | `main` | push | `80c1f57` | ✅ success |
-| 16/09 12:51 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118154737) | `main` | push | `80c1f57` | ✅ success |
-| 16/09 12:51 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118154847) | `main` | push | `80c1f57` | ✅ success |
-| 18/09 21:36 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35409929478) | `main` | push | `1c2f33e` | ✅ success |
-| 18/09 21:36 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35409929462) | `main` | push | `1c2f33e` | ✅ success |
-| 18/09 21:36 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35409929376) | `main` | push | `1c2f33e` | ✅ success |
-| 21/09 11:04 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609717191) | `main` | push | `e679836` | ✅ success |
-| 21/09 11:04 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609717610) | `main` | push | `e679836` | ✅ success |
-| 21/09 11:04 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609717871) | `main` | push | `e679836` | ✅ success |
-| 27/09 18:24 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36351594765) | `main` | push | `34e47db` | ✅ success |
-| 27/09 18:24 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36351594901) | `main` | push | `34e47db` | ✅ success |
-| 27/09 18:24 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36351594883) | `main` | push | `34e47db` | ❌ failed |
-| 27/09 19:56 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356968791) | `main` | push | `dcec71a` | ✅ success |
-| 27/09 19:56 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356968606) | `main` | push | `dcec71a` | ✅ success |
-| 27/09 19:56 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356968587) | `main` | push | `dcec71a` | ✅ success |
+| 13/09 13:22 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/34768361256) | `dev` | pull_request | `2957822` | success |
+| 15/09 19:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35033457461) | `dev` | push | `c9f4933` | failed |
+| 15/09 19:57 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35033457494) | `dev` | push | `c9f4933` | failed |
+| 15/09 19:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35033462484) | `dev` | pull_request | `c9f4933` | failed |
+| 16/09 12:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35115436434) | `dev` | push | `ede25aa` | success |
+| 16/09 12:27 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35115436339) | `dev` | push | `ede25aa` | success |
+| 16/09 12:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35115441257) | `dev` | pull_request | `ede25aa` | success |
+| 16/09 12:56 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118647818) | `dev` | push | `4915101` | success |
+| 16/09 12:56 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118648097) | `dev` | push | `4915101` | success |
+| 19/09 10:38 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35446348209) | `dev` | push | `9c7868b` | success |
+| 19/09 10:38 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35446348228) | `dev` | push | `9c7868b` | success |
+| 19/09 12:00 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35450424826) | `dev` | push | `cb972dc` | success |
+| 19/09 12:00 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35450425057) | `dev` | push | `cb972dc` | success |
+| 19/09 21:19 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35478486714) | `dev` | push | `db9314a` | success |
+| 19/09 21:19 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35478486750) | `dev` | push | `db9314a` | success |
+| 19/09 22:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35482716226) | `dev` | push | `930b7e3` | success |
+| 19/09 22:57 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35482716244) | `dev` | push | `930b7e3` | success |
+| 24/09 12:31 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36020764968) | `dev` | push | `c4d07e8` | success |
+| 24/09 12:31 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36020764860) | `dev` | push | `c4d07e8` | success |
+| 24/09 16:10 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36046371062) | `dev` | push | `fe7e293` | failed |
+| 24/09 16:10 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36046370869) | `dev` | push | `fe7e293` | success |
+| 24/09 17:15 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36053632856) | `dev` | push | `3006f4e` | success |
+| 24/09 17:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36053632882) | `dev` | push | `3006f4e` | success |
+| 25/09 19:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36196802639) | `dev` | push | `fc61913` | success |
+| 25/09 19:27 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36196802565) | `dev` | push | `fc61913` | success |
+| 25/09 20:44 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36202173223) | `dev` | push | `4151b8b` | success |
+| 25/09 20:44 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36202173213) | `dev` | push | `4151b8b` | success |
+| 25/09 21:00 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36203167074) | `dev` | push | `e177362` | success |
+| 25/09 21:00 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36203167121) | `dev` | push | `e177362` | success |
+| 26/09 22:14 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36284918213) | `dev` | push | `16aeff7` | failed |
+| 26/09 22:14 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36284918220) | `dev` | push | `16aeff7` | failed |
+| 27/09 00:09 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36290592203) | `dev` | push | `075c23b` | failed |
+| 27/09 00:09 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36290592140) | `dev` | push | `075c23b` | success |
+| 27/09 09:56 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36320686356) | `dev` | push | `0dc2fcd` | failed |
+| 27/09 09:56 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36320686370) | `dev` | push | `0dc2fcd` | success |
+| 27/09 11:34 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36326413336) | `dev` | push | `231b8ea` | success |
+| 27/09 11:34 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36326413262) | `dev` | push | `231b8ea` | success |
+| 27/09 14:30 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36337167505) | `dev` | push | `8c3d1f8` | success |
+| 27/09 14:30 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36337167544) | `dev` | push | `8c3d1f8` | success |
+| 27/09 15:35 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341196955) | `dev` | push | `aaa4b7c` | success |
+| 27/09 15:35 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341197762) | `dev` | push | `aaa4b7c` | success |
+| 27/09 15:46 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341870106) | `dev` | push | `28127d9` | cancelled |
+| 27/09 15:46 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341870071) | `dev` | push | `28127d9` | success |
+| 27/09 15:50 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36342163239) | `dev` | push | `f42120e` | success |
+| 27/09 15:50 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36342163443) | `dev` | push | `f42120e` | success |
+| 27/09 16:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36344392198) | `dev` | push | `8b33792` | success |
+| 27/09 16:27 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36344392189) | `dev` | push | `8b33792` | success |
+| 27/09 16:53 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346026569) | `dev` | push | `919f02f` | success |
+| 27/09 16:53 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346026621) | `dev` | push | `919f02f` | success |
+| 27/09 17:06 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346804009) | `dev` | push | `ae8cc9c` | cancelled |
+| 27/09 17:06 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346804002) | `dev` | push | `ae8cc9c` | success |
+| 27/09 17:10 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347049906) | `dev` | push | `7287e27` | cancelled |
+| 27/09 17:10 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347049869) | `dev` | push | `7287e27` | cancelled |
+| 27/09 17:16 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347447158) | `dev` | push | `5267385` | failed |
+| 27/09 17:16 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347447188) | `dev` | push | `5267385` | failed |
+| 27/09 17:49 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36349454189) | `dev` | push | `02b368b` | success |
+| 27/09 17:49 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36349454158) | `dev` | push | `02b368b` | success |
+| 27/09 18:06 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36350464931) | `dev` | pull_request | `02b368b` | failed |
+| 27/09 19:44 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356323211) | `dev` | push | `c1fcbb9` | success |
+| 27/09 19:44 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356323186) | `dev` | push | `c1fcbb9` | success |
+| 27/09 19:55 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356963672) | `dev` | pull_request | `c1fcbb9` | success |
+| 27/09 17:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347386264) | `chore/deps-latest` | pull_request | `d356400` | failed |
+| 27/09 19:31 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36355584467) | `chore/sync-server-contract` | pull_request | `59be7b9` | success |
+| 22/09 13:09 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35752195645) | `codex/defindex-wallet-integration` | pull_request | `e3e1a4a` | cancelled |
+| 22/09 13:14 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35752774549) | `codex/defindex-wallet-integration` | pull_request | `4c06df1` | success |
+| 27/09 16:53 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346024709) | `codex/defindex-wallet-integration` | pull_request | `399bc71` | success |
+| 22/09 00:34 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35683642849) | `codex/earn-protocol-directory` | pull_request | `ce4d470` | success |
+| 27/09 16:27 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36344389141) | `codex/earn-protocol-directory` | pull_request | `8f14244` | success |
+| 22/09 00:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682460155) | `codex/visible-modular-ramps` | pull_request | `de6570e` | cancelled |
+| 22/09 00:15 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682502563) | `codex/visible-modular-ramps` | pull_request | `2991139` | cancelled |
+| 22/09 00:21 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682856654) | `codex/visible-modular-ramps` | pull_request | `c6e3bff` | success |
+| 27/09 15:46 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36341867238) | `codex/visible-modular-ramps` | pull_request | `bd5a2d7` | success |
+| 22/09 00:23 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35682969291) | `codex/web-earn-route` | pull_request | `d57d36b` | success |
+| 27/09 15:50 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36342160725) | `codex/web-earn-route` | pull_request | `c851d6b` | success |
+| 26/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36268761669) | `dependabot/npm_and_yarn/astrojs/react-7.0.0` | pull_request | `fc3c7a8` | success |
+| 27/09 17:10 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36347045227) | `dependabot/npm_and_yarn/astrojs/react-7.0.0` | pull_request | `a282ce2` | success |
+| 26/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36268745659) | `dependabot/npm_and_yarn/minor-and-patch-522a3e4b7e` | pull_request | `281320b` | success |
+| 27/09 16:57 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36346213087) | `dependabot/npm_and_yarn/minor-and-patch-522a3e4b7e` | pull_request | `78af29e` | success |
+| 19/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35466714351) | `dependabot/npm_and_yarn/minor-and-patch-ed7065fa84` | pull_request | `6fbef9c` | success |
+| 19/09 17:13 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35466720055) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `43f3ccd` | failed |
+| 21/09 11:06 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609963468) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `c5bf56e` | cancelled |
+| 21/09 11:09 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35610266468) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `35db486` | failed |
+| 27/09 15:24 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36340512142) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `47c78b8` | failed |
+| 27/09 15:31 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36340965898) | `dependabot/npm_and_yarn/stellar/stellar-sdk-17.1.0` | pull_request | `4ec9ae0` | success |
+| 27/09 17:42 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36349021035) | `fix/android-compile-sdk-36` | pull_request | `5b21bc0` | success |
+| 16/09 12:51 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118154220) | `main` | push | `80c1f57` | success |
+| 16/09 12:51 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118154737) | `main` | push | `80c1f57` | success |
+| 16/09 12:51 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35118154847) | `main` | push | `80c1f57` | success |
+| 18/09 21:36 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35409929478) | `main` | push | `1c2f33e` | success |
+| 18/09 21:36 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35409929462) | `main` | push | `1c2f33e` | success |
+| 18/09 21:36 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35409929376) | `main` | push | `1c2f33e` | success |
+| 21/09 11:04 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609717191) | `main` | push | `e679836` | success |
+| 21/09 11:04 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609717610) | `main` | push | `e679836` | success |
+| 21/09 11:04 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/35609717871) | `main` | push | `e679836` | success |
+| 27/09 18:24 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36351594765) | `main` | push | `34e47db` | success |
+| 27/09 18:24 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36351594901) | `main` | push | `34e47db` | success |
+| 27/09 18:24 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36351594883) | `main` | push | `34e47db` | failed |
+| 27/09 19:56 | [Deploy web (GitHub Pages)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356968791) | `main` | push | `dcec71a` | success |
+| 27/09 19:56 | [Release (extension + apps)](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356968606) | `main` | push | `dcec71a` | success |
+| 27/09 19:56 | [CI](https://github.com/CosmosPay/CosmosPay-Wallet/actions/runs/36356968587) | `main` | push | `dcec71a` | success |
 
 </details>
 
@@ -805,7 +809,7 @@ There were also 8 automated Dependabot runs.
 
 **Builds by branch:**
 
-| Branch | Total | ✅ success | ❌ failed | ⚪ cancelled |
+| Branch | Total | success | failed | cancelled |
 |---|---:|---:|---:|---:|
 | `dev` | 32 | 27 | 5 | 0 |
 | `chore/deps-latest` | 1 | 1 | 0 | 0 |
@@ -825,63 +829,63 @@ There were also 4 automated Dependabot runs.
 
 | Date | Workflow | Branch | Event | Commit | Result |
 |---|---|---|---|---|---|
-| 13/09 13:18 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34768187181) | `dev` | push | `ad028aa` | ✅ success |
-| 13/09 13:46 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34769612490) | `dev` | push | `2ac9abd` | ✅ success |
-| 13/09 14:08 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34770680144) | `dev` | pull_request | `2ac9abd` | ✅ success |
-| 14/09 20:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34907640851) | `dev` | push | `8a8e7d5` | ✅ success |
-| 15/09 02:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34931640883) | `dev` | push | `d28299c` | ✅ success |
-| 15/09 08:35 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34964124998) | `dev` | push | `9792312` | ✅ success |
-| 15/09 09:28 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969036937) | `dev` | push | `e0ca53e` | ✅ success |
-| 15/09 09:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969618463) | `dev` | pull_request | `e0ca53e` | ✅ success |
-| 15/09 18:04 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35023407109) | `dev` | push | `8013ca0` | ✅ success |
-| 15/09 18:43 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35027245261) | `dev` | push | `04147e5` | ✅ success |
-| 15/09 21:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35040540733) | `dev` | push | `2b19c55` | ✅ success |
-| 16/09 00:20 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35051446075) | `dev` | push | `876a46b` | ✅ success |
-| 16/09 12:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35115719171) | `dev` | pull_request | `876a46b` | ✅ success |
-| 16/09 12:53 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35118308629) | `dev` | push | `daee830` | ✅ success |
-| 17/09 22:14 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35294484751) | `dev` | push | `68cdd89` | ✅ success |
-| 24/09 12:31 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36020774547) | `dev` | push | `afb37ec` | ✅ success |
-| 25/09 19:27 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36196804524) | `dev` | push | `1a93099` | ✅ success |
-| 25/09 20:44 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36202152044) | `dev` | push | `c47422a` | ✅ success |
-| 25/09 21:00 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36203159663) | `dev` | push | `0811412` | ✅ success |
-| 26/09 22:13 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36284899056) | `dev` | push | `c9490ad` | ❌ failed |
-| 26/09 23:08 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36287614502) | `dev` | push | `8c055bc` | ❌ failed |
-| 27/09 00:09 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36290583676) | `dev` | push | `d446d02` | ❌ failed |
-| 27/09 11:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36326417645) | `dev` | push | `e68b6ed` | ❌ failed |
-| 27/09 14:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36337154209) | `dev` | push | `0424ad2` | ❌ failed |
-| 27/09 18:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36351927667) | `dev` | push | `f7ebb42` | ✅ success |
-| 27/09 18:44 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36352811747) | `dev` | push | `4d655ed` | ✅ success |
-| 27/09 18:55 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36353461282) | `dev` | push | `94c51fc` | ✅ success |
-| 27/09 19:06 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354149018) | `dev` | push | `f6ca78e` | ✅ success |
-| 27/09 19:12 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354477528) | `dev` | push | `f6535c3` | ✅ success |
-| 27/09 19:18 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354841526) | `dev` | push | `e77e759` | ✅ success |
-| 27/09 19:26 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355305907) | `dev` | push | `a09c259` | ✅ success |
-| 27/09 19:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355480016) | `dev` | pull_request | `a09c259` | ✅ success |
-| 27/09 19:26 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355278337) | `chore/deps-latest` | pull_request | `7539e51` | ✅ success |
-| 22/09 00:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35682197765) | `codex/blindpay-execution-idempotency` | pull_request | `a459067` | ❌ failed |
-| 27/09 18:54 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36353424854) | `codex/blindpay-execution-idempotency` | pull_request | `11d19c8` | ✅ success |
-| 22/09 00:09 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35682107329) | `codex/blindpay-quote-expiry` | pull_request | `c4ab364` | ❌ failed |
-| 27/09 18:44 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36352802095) | `codex/blindpay-quote-expiry` | pull_request | `c4dad32` | ✅ success |
-| 22/09 12:56 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35750781578) | `codex/defindex-api` | pull_request | `d5559ea` | ❌ failed |
-| 27/09 19:06 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354142920) | `codex/defindex-api` | pull_request | `be576b2` | ✅ success |
-| 26/09 07:15 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36235233785) | `dependabot/npm_and_yarn/dotenv-18.0.3` | pull_request | `b97c5d8` | ✅ success |
-| 27/09 19:18 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354832412) | `dependabot/npm_and_yarn/dotenv-18.0.3` | pull_request | `1435667` | ✅ success |
-| 19/09 07:15 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35436885278) | `dependabot/npm_and_yarn/minor-and-patch-6c98efc57f` | pull_request | `f2c8de7` | ✅ success |
-| 26/09 07:15 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36235213415) | `dependabot/npm_and_yarn/minor-and-patch-bb70154548` | pull_request | `cb795ec` | ✅ success |
-| 27/09 19:12 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354465977) | `dependabot/npm_and_yarn/minor-and-patch-bb70154548` | pull_request | `d7ac10c` | ✅ success |
-| 20/09 05:39 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35500174602) | `feat/sub-rosa-private-rfqs` | pull_request | `a315eac` | ✅ success |
-| 27/09 18:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36351915065) | `fix/dev-ci-green` | pull_request | `f4bf2a3` | ✅ success |
-| 13/09 14:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34770768049) | `main` | push | `428d88a` | ✅ success |
-| 13/09 14:10 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34770768046) | `main` | push | `428d88a` | ✅ success |
-| 15/09 09:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969637360) | `main` | push | `92bebf4` | ✅ success |
-| 15/09 09:34 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969637384) | `main` | push | `92bebf4` | ✅ success |
-| 16/09 12:49 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35117944044) | `main` | push | `8815528` | ✅ success |
-| 16/09 12:49 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35117944095) | `main` | push | `8815528` | ✅ success |
-| 16/09 12:51 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35118088300) | `main` | pull_request | `8815528` | ✅ success |
-| 20/09 10:49 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35514624337) | `main` | push | `636c956` | ✅ success |
-| 20/09 10:49 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35514624196) | `main` | push | `636c956` | ✅ success |
-| 27/09 19:31 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355598606) | `main` | push | `b2ef4a6` | ✅ success |
-| 27/09 19:31 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355598746) | `main` | push | `b2ef4a6` | ✅ success |
+| 13/09 13:18 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34768187181) | `dev` | push | `ad028aa` | success |
+| 13/09 13:46 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34769612490) | `dev` | push | `2ac9abd` | success |
+| 13/09 14:08 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34770680144) | `dev` | pull_request | `2ac9abd` | success |
+| 14/09 20:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34907640851) | `dev` | push | `8a8e7d5` | success |
+| 15/09 02:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34931640883) | `dev` | push | `d28299c` | success |
+| 15/09 08:35 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34964124998) | `dev` | push | `9792312` | success |
+| 15/09 09:28 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969036937) | `dev` | push | `e0ca53e` | success |
+| 15/09 09:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969618463) | `dev` | pull_request | `e0ca53e` | success |
+| 15/09 18:04 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35023407109) | `dev` | push | `8013ca0` | success |
+| 15/09 18:43 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35027245261) | `dev` | push | `04147e5` | success |
+| 15/09 21:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35040540733) | `dev` | push | `2b19c55` | success |
+| 16/09 00:20 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35051446075) | `dev` | push | `876a46b` | success |
+| 16/09 12:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35115719171) | `dev` | pull_request | `876a46b` | success |
+| 16/09 12:53 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35118308629) | `dev` | push | `daee830` | success |
+| 17/09 22:14 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35294484751) | `dev` | push | `68cdd89` | success |
+| 24/09 12:31 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36020774547) | `dev` | push | `afb37ec` | success |
+| 25/09 19:27 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36196804524) | `dev` | push | `1a93099` | success |
+| 25/09 20:44 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36202152044) | `dev` | push | `c47422a` | success |
+| 25/09 21:00 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36203159663) | `dev` | push | `0811412` | success |
+| 26/09 22:13 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36284899056) | `dev` | push | `c9490ad` | failed |
+| 26/09 23:08 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36287614502) | `dev` | push | `8c055bc` | failed |
+| 27/09 00:09 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36290583676) | `dev` | push | `d446d02` | failed |
+| 27/09 11:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36326417645) | `dev` | push | `e68b6ed` | failed |
+| 27/09 14:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36337154209) | `dev` | push | `0424ad2` | failed |
+| 27/09 18:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36351927667) | `dev` | push | `f7ebb42` | success |
+| 27/09 18:44 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36352811747) | `dev` | push | `4d655ed` | success |
+| 27/09 18:55 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36353461282) | `dev` | push | `94c51fc` | success |
+| 27/09 19:06 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354149018) | `dev` | push | `f6ca78e` | success |
+| 27/09 19:12 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354477528) | `dev` | push | `f6535c3` | success |
+| 27/09 19:18 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354841526) | `dev` | push | `e77e759` | success |
+| 27/09 19:26 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355305907) | `dev` | push | `a09c259` | success |
+| 27/09 19:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355480016) | `dev` | pull_request | `a09c259` | success |
+| 27/09 19:26 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355278337) | `chore/deps-latest` | pull_request | `7539e51` | success |
+| 22/09 00:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35682197765) | `codex/blindpay-execution-idempotency` | pull_request | `a459067` | failed |
+| 27/09 18:54 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36353424854) | `codex/blindpay-execution-idempotency` | pull_request | `11d19c8` | success |
+| 22/09 00:09 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35682107329) | `codex/blindpay-quote-expiry` | pull_request | `c4ab364` | failed |
+| 27/09 18:44 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36352802095) | `codex/blindpay-quote-expiry` | pull_request | `c4dad32` | success |
+| 22/09 12:56 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35750781578) | `codex/defindex-api` | pull_request | `d5559ea` | failed |
+| 27/09 19:06 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354142920) | `codex/defindex-api` | pull_request | `be576b2` | success |
+| 26/09 07:15 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36235233785) | `dependabot/npm_and_yarn/dotenv-18.0.3` | pull_request | `b97c5d8` | success |
+| 27/09 19:18 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354832412) | `dependabot/npm_and_yarn/dotenv-18.0.3` | pull_request | `1435667` | success |
+| 19/09 07:15 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35436885278) | `dependabot/npm_and_yarn/minor-and-patch-6c98efc57f` | pull_request | `f2c8de7` | success |
+| 26/09 07:15 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36235213415) | `dependabot/npm_and_yarn/minor-and-patch-bb70154548` | pull_request | `cb795ec` | success |
+| 27/09 19:12 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36354465977) | `dependabot/npm_and_yarn/minor-and-patch-bb70154548` | pull_request | `d7ac10c` | success |
+| 20/09 05:39 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35500174602) | `feat/sub-rosa-private-rfqs` | pull_request | `a315eac` | success |
+| 27/09 18:29 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36351915065) | `fix/dev-ci-green` | pull_request | `f4bf2a3` | success |
+| 13/09 14:10 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34770768049) | `main` | push | `428d88a` | success |
+| 13/09 14:10 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34770768046) | `main` | push | `428d88a` | success |
+| 15/09 09:34 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969637360) | `main` | push | `92bebf4` | success |
+| 15/09 09:34 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/34969637384) | `main` | push | `92bebf4` | success |
+| 16/09 12:49 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35117944044) | `main` | push | `8815528` | success |
+| 16/09 12:49 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35117944095) | `main` | push | `8815528` | success |
+| 16/09 12:51 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35118088300) | `main` | pull_request | `8815528` | success |
+| 20/09 10:49 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35514624337) | `main` | push | `636c956` | success |
+| 20/09 10:49 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/35514624196) | `main` | push | `636c956` | success |
+| 27/09 19:31 | [Release](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355598606) | `main` | push | `b2ef4a6` | success |
+| 27/09 19:31 | [CI](https://github.com/CosmosPay/CosmosPay-Community-Server/actions/runs/36355598746) | `main` | push | `b2ef4a6` | success |
 
 </details>
 
@@ -891,7 +895,7 @@ There were also 4 automated Dependabot runs.
 
 **Builds by branch:**
 
-| Branch | Total | ✅ success | ❌ failed | ⚪ cancelled |
+| Branch | Total | success | failed | cancelled |
 |---|---:|---:|---:|---:|
 | `dev` | 31 | 27 | 4 | 0 |
 | `chore/deps-latest` | 1 | 1 | 0 | 0 |
@@ -910,64 +914,64 @@ There were also 11 automated Dependabot runs.
 
 | Date | Workflow | Branch | Event | Commit | Result |
 |---|---|---|---|---|---|
-| 13/09 13:16 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768083295) | `dev` | push | `6e08f2c` | ✅ success |
-| 13/09 13:22 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768392964) | `dev` | pull_request | `6e08f2c` | ✅ success |
-| 13/09 13:28 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768678335) | `dev` | push | `08bd1f8` | ❌ failed |
-| 13/09 13:46 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34769610876) | `dev` | push | `46044a0` | ❌ failed |
-| 13/09 14:00 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770255554) | `dev` | push | `cf72b25` | ✅ success |
-| 13/09 14:04 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770496684) | `dev` | pull_request | `cf72b25` | ✅ success |
-| 15/09 18:42 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35027139763) | `dev` | push | `f85cc92` | ✅ success |
-| 15/09 19:58 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35033492136) | `dev` | push | `e04de5a` | ✅ success |
-| 16/09 00:55 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35053620442) | `dev` | push | `cf202fb` | ✅ success |
-| 16/09 12:27 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35115423521) | `dev` | push | `5aeb5a0` | ✅ success |
-| 16/09 12:30 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35115814248) | `dev` | pull_request | `5aeb5a0` | ✅ success |
-| 16/09 12:55 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35118545790) | `dev` | push | `234ce46` | ✅ success |
-| 17/09 19:37 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35282953416) | `dev` | push | `25b156b` | ✅ success |
-| 19/09 21:19 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35478474531) | `dev` | push | `0acb506` | ✅ success |
-| 19/09 22:56 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35482663231) | `dev` | push | `7d89383` | ✅ success |
-| 24/09 12:30 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36020725891) | `dev` | push | `cb372b2` | ✅ success |
-| 24/09 16:10 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36046330990) | `dev` | push | `b55ad6e` | ✅ success |
-| 24/09 17:15 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36053616143) | `dev` | push | `1c2e72f` | ✅ success |
-| 25/09 19:27 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36196804232) | `dev` | push | `bec268d` | ✅ success |
-| 25/09 20:43 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36202130174) | `dev` | push | `670267a` | ✅ success |
-| 25/09 20:59 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36203146488) | `dev` | push | `409455e` | ✅ success |
-| 26/09 22:13 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36284876912) | `dev` | push | `284b005` | ✅ success |
-| 26/09 23:08 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36287615977) | `dev` | push | `f8b1e3b` | ✅ success |
-| 27/09 11:33 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36326317182) | `dev` | push | `408a7ad` | ✅ success |
-| 27/09 11:39 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36326715248) | `dev` | push | `040df82` | ❌ failed |
-| 27/09 14:30 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36337171327) | `dev` | push | `013c4c5` | ❌ failed |
-| 27/09 20:21 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358414357) | `dev` | push | `59cda58` | ✅ success |
-| 27/09 20:24 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358562228) | `dev` | push | `51eb1d8` | ✅ success |
-| 27/09 20:28 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358796014) | `dev` | push | `fbc77f7` | ✅ success |
-| 27/09 20:35 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359181984) | `dev` | push | `b6c5de9` | ✅ success |
-| 27/09 20:37 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359303419) | `dev` | pull_request | `b6c5de9` | ✅ success |
-| 27/09 20:33 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359088013) | `chore/deps-latest` | pull_request | `5b0f01d` | ✅ success |
-| 27/09 20:19 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358322264) | `chore/remove-pollar` | pull_request | `305ee5c` | ✅ success |
-| 12/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34726597157) | `dependabot/npm_and_yarn/asteasolutions/zod-to-openapi-9.1.0` | pull_request | `9ea9adc` | ✅ success |
-| 12/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34726631487) | `dependabot/npm_and_yarn/docs/minor-and-patch-10c7a64163` | pull_request | `6b197e3` | ❌ failed |
-| 19/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35477376063) | `dependabot/npm_and_yarn/docs/minor-and-patch-6f652f81d4` | pull_request | `f9459c9` | ❌ failed |
-| 26/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36280890984) | `dependabot/npm_and_yarn/docs/minor-and-patch-dda4a464c6` | pull_request | `d988ec9` | ❌ failed |
-| 27/09 20:28 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358786915) | `dependabot/npm_and_yarn/docs/minor-and-patch-dda4a464c6` | pull_request | `b100770` | ✅ success |
-| 19/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35477348904) | `dependabot/npm_and_yarn/minor-and-patch-50809c966c` | pull_request | `91c8db0` | ✅ success |
-| 26/09 20:55 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36280912788) | `dependabot/npm_and_yarn/minor-and-patch-864ab215d3` | pull_request | `7f04b35` | ✅ success |
-| 27/09 20:24 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358560847) | `dependabot/npm_and_yarn/minor-and-patch-864ab215d3` | pull_request | `6a1bc6c` | ⚪ cancelled |
-| 13/09 13:22 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768398116) | `main` | push | `616a129` | ⚪ cancelled |
-| 13/09 13:22 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768398130) | `main` | push | `616a129` | ❌ failed |
-| 13/09 13:23 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768419534) | `main` | push | `419b046` | ⚪ cancelled |
-| 13/09 13:23 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768419529) | `main` | push | `419b046` | ⚪ cancelled |
-| 13/09 13:24 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768478324) | `main` | push | `0d509d7` | ❌ failed |
-| 13/09 13:24 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768478329) | `main` | push | `0d509d7` | ❌ failed |
-| 13/09 13:26 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768559104) | `main` | pull_request | `0d509d7` | ❌ failed |
-| 13/09 14:06 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770576331) | `main` | push | `b2a59b3` | ✅ success |
-| 13/09 14:06 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770576412) | `main` | push | `b2a59b3` | ✅ success |
-| 16/09 12:50 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35117995420) | `main` | push | `e388ed0` | ✅ success |
-| 16/09 12:50 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35117995338) | `main` | push | `e388ed0` | ✅ success |
-| 18/09 21:36 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35409927229) | `main` | push | `b400ba4` | ✅ success |
-| 18/09 21:36 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35409927228) | `main` | push | `b400ba4` | ✅ success |
-| 19/09 13:02 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35453655418) | `main` | push | `4181499` | ✅ success |
-| 19/09 13:02 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35453655450) | `main` | push | `4181499` | ✅ success |
-| 27/09 20:38 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359401302) | `main` | push | `350beb5` | ✅ success |
-| 27/09 20:38 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359401344) | `main` | push | `350beb5` | ✅ success |
+| 13/09 13:16 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768083295) | `dev` | push | `6e08f2c` | success |
+| 13/09 13:22 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768392964) | `dev` | pull_request | `6e08f2c` | success |
+| 13/09 13:28 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768678335) | `dev` | push | `08bd1f8` | failed |
+| 13/09 13:46 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34769610876) | `dev` | push | `46044a0` | failed |
+| 13/09 14:00 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770255554) | `dev` | push | `cf72b25` | success |
+| 13/09 14:04 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770496684) | `dev` | pull_request | `cf72b25` | success |
+| 15/09 18:42 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35027139763) | `dev` | push | `f85cc92` | success |
+| 15/09 19:58 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35033492136) | `dev` | push | `e04de5a` | success |
+| 16/09 00:55 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35053620442) | `dev` | push | `cf202fb` | success |
+| 16/09 12:27 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35115423521) | `dev` | push | `5aeb5a0` | success |
+| 16/09 12:30 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35115814248) | `dev` | pull_request | `5aeb5a0` | success |
+| 16/09 12:55 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35118545790) | `dev` | push | `234ce46` | success |
+| 17/09 19:37 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35282953416) | `dev` | push | `25b156b` | success |
+| 19/09 21:19 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35478474531) | `dev` | push | `0acb506` | success |
+| 19/09 22:56 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35482663231) | `dev` | push | `7d89383` | success |
+| 24/09 12:30 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36020725891) | `dev` | push | `cb372b2` | success |
+| 24/09 16:10 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36046330990) | `dev` | push | `b55ad6e` | success |
+| 24/09 17:15 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36053616143) | `dev` | push | `1c2e72f` | success |
+| 25/09 19:27 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36196804232) | `dev` | push | `bec268d` | success |
+| 25/09 20:43 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36202130174) | `dev` | push | `670267a` | success |
+| 25/09 20:59 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36203146488) | `dev` | push | `409455e` | success |
+| 26/09 22:13 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36284876912) | `dev` | push | `284b005` | success |
+| 26/09 23:08 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36287615977) | `dev` | push | `f8b1e3b` | success |
+| 27/09 11:33 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36326317182) | `dev` | push | `408a7ad` | success |
+| 27/09 11:39 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36326715248) | `dev` | push | `040df82` | failed |
+| 27/09 14:30 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36337171327) | `dev` | push | `013c4c5` | failed |
+| 27/09 20:21 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358414357) | `dev` | push | `59cda58` | success |
+| 27/09 20:24 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358562228) | `dev` | push | `51eb1d8` | success |
+| 27/09 20:28 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358796014) | `dev` | push | `fbc77f7` | success |
+| 27/09 20:35 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359181984) | `dev` | push | `b6c5de9` | success |
+| 27/09 20:37 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359303419) | `dev` | pull_request | `b6c5de9` | success |
+| 27/09 20:33 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359088013) | `chore/deps-latest` | pull_request | `5b0f01d` | success |
+| 27/09 20:19 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358322264) | `chore/remove-pollar` | pull_request | `305ee5c` | success |
+| 12/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34726597157) | `dependabot/npm_and_yarn/asteasolutions/zod-to-openapi-9.1.0` | pull_request | `9ea9adc` | success |
+| 12/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34726631487) | `dependabot/npm_and_yarn/docs/minor-and-patch-10c7a64163` | pull_request | `6b197e3` | failed |
+| 19/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35477376063) | `dependabot/npm_and_yarn/docs/minor-and-patch-6f652f81d4` | pull_request | `f9459c9` | failed |
+| 26/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36280890984) | `dependabot/npm_and_yarn/docs/minor-and-patch-dda4a464c6` | pull_request | `d988ec9` | failed |
+| 27/09 20:28 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358786915) | `dependabot/npm_and_yarn/docs/minor-and-patch-dda4a464c6` | pull_request | `b100770` | success |
+| 19/09 20:54 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35477348904) | `dependabot/npm_and_yarn/minor-and-patch-50809c966c` | pull_request | `91c8db0` | success |
+| 26/09 20:55 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36280912788) | `dependabot/npm_and_yarn/minor-and-patch-864ab215d3` | pull_request | `7f04b35` | success |
+| 27/09 20:24 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36358560847) | `dependabot/npm_and_yarn/minor-and-patch-864ab215d3` | pull_request | `6a1bc6c` | cancelled |
+| 13/09 13:22 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768398116) | `main` | push | `616a129` | cancelled |
+| 13/09 13:22 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768398130) | `main` | push | `616a129` | failed |
+| 13/09 13:23 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768419534) | `main` | push | `419b046` | cancelled |
+| 13/09 13:23 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768419529) | `main` | push | `419b046` | cancelled |
+| 13/09 13:24 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768478324) | `main` | push | `0d509d7` | failed |
+| 13/09 13:24 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768478329) | `main` | push | `0d509d7` | failed |
+| 13/09 13:26 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34768559104) | `main` | pull_request | `0d509d7` | failed |
+| 13/09 14:06 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770576331) | `main` | push | `b2a59b3` | success |
+| 13/09 14:06 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/34770576412) | `main` | push | `b2a59b3` | success |
+| 16/09 12:50 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35117995420) | `main` | push | `e388ed0` | success |
+| 16/09 12:50 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35117995338) | `main` | push | `e388ed0` | success |
+| 18/09 21:36 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35409927229) | `main` | push | `b400ba4` | success |
+| 18/09 21:36 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35409927228) | `main` | push | `b400ba4` | success |
+| 19/09 13:02 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35453655418) | `main` | push | `4181499` | success |
+| 19/09 13:02 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/35453655450) | `main` | push | `4181499` | success |
+| 27/09 20:38 | [CI](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359401302) | `main` | push | `350beb5` | success |
+| 27/09 20:38 | [Release](https://github.com/CosmosPay/CosmosPay-Developer-Platform/actions/runs/36359401344) | `main` | push | `350beb5` | success |
 
 </details>
 
@@ -979,7 +983,7 @@ There were also 11 automated Dependabot runs.
 
 **Builds by branch:**
 
-| Branch | Total | ✅ success | ❌ failed | ⚪ cancelled |
+| Branch | Total | success | failed | cancelled |
 |---|---:|---:|---:|---:|
 | `dev` | 8 | 8 | 0 | 0 |
 | `dependabot/npm_and_yarn/minor-and-patch-febceb97ad` | 1 | 1 | 0 | 0 |
@@ -991,19 +995,19 @@ There were also 8 automated Dependabot runs.
 
 | Date | Workflow | Branch | Event | Commit | Result |
 |---|---|---|---|---|---|
-| 15/09 18:50 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35027826657) | `dev` | push | `0e9ba8b` | ✅ success |
-| 15/09 18:50 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35027830327) | `dev` | pull_request | `0e9ba8b` | ✅ success |
-| 16/09 00:21 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35051506924) | `dev` | push | `d80aa11` | ✅ success |
-| 16/09 00:21 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35051510954) | `dev` | pull_request | `d80aa11` | ✅ success |
-| 16/09 00:55 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35053629831) | `dev` | push | `14689d1` | ✅ success |
-| 16/09 00:55 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35053632850) | `dev` | pull_request | `14689d1` | ✅ success |
-| 16/09 12:50 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35118070462) | `dev` | push | `50d35d1` | ✅ success |
-| 25/09 21:00 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/36203176770) | `dev` | push | `74e88b1` | ✅ success |
-| 19/09 17:52 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35468738693) | `dependabot/npm_and_yarn/minor-and-patch-febceb97ad` | pull_request | `e67fafa` | ✅ success |
-| 16/09 12:29 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115634731) | `main` | push | `091ef13` | ✅ success |
-| 16/09 12:29 | [Release](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115634838) | `main` | push | `091ef13` | ❌ failed |
-| 16/09 12:29 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115731169) | `main` | push | `5fc83cf` | ✅ success |
-| 16/09 12:29 | [Release](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115731328) | `main` | push | `5fc83cf` | ✅ success |
+| 15/09 18:50 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35027826657) | `dev` | push | `0e9ba8b` | success |
+| 15/09 18:50 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35027830327) | `dev` | pull_request | `0e9ba8b` | success |
+| 16/09 00:21 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35051506924) | `dev` | push | `d80aa11` | success |
+| 16/09 00:21 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35051510954) | `dev` | pull_request | `d80aa11` | success |
+| 16/09 00:55 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35053629831) | `dev` | push | `14689d1` | success |
+| 16/09 00:55 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35053632850) | `dev` | pull_request | `14689d1` | success |
+| 16/09 12:50 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35118070462) | `dev` | push | `50d35d1` | success |
+| 25/09 21:00 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/36203176770) | `dev` | push | `74e88b1` | success |
+| 19/09 17:52 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35468738693) | `dependabot/npm_and_yarn/minor-and-patch-febceb97ad` | pull_request | `e67fafa` | success |
+| 16/09 12:29 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115634731) | `main` | push | `091ef13` | success |
+| 16/09 12:29 | [Release](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115634838) | `main` | push | `091ef13` | failed |
+| 16/09 12:29 | [CI](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115731169) | `main` | push | `5fc83cf` | success |
+| 16/09 12:29 | [Release](https://github.com/CosmosPay/CosmosJS_SDK/actions/runs/35115731328) | `main` | push | `5fc83cf` | success |
 
 </details>
 
@@ -1013,7 +1017,7 @@ There were also 8 automated Dependabot runs.
 
 **Builds by branch:**
 
-| Branch | Total | ✅ success | ❌ failed | ⚪ cancelled |
+| Branch | Total | success | failed | cancelled |
 |---|---:|---:|---:|---:|
 | `main` | 4 | 4 | 0 | 0 |
 
@@ -1021,10 +1025,10 @@ There were also 8 automated Dependabot runs.
 
 | Date | Workflow | Branch | Event | Commit | Result |
 |---|---|---|---|---|---|
-| 18/09 21:36 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35409924950) | `main` | push | `23a9835` | ✅ success |
-| 18/09 22:59 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35414329683) | `main` | push | `c28a66a` | ✅ success |
-| 18/09 23:02 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35414502353) | `main` | workflow_dispatch | `c28a66a` | ✅ success |
-| 23/09 23:16 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35946553910) | `main` | push | `60bf7fb` | ✅ success |
+| 18/09 21:36 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35409924950) | `main` | push | `23a9835` | success |
+| 18/09 22:59 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35414329683) | `main` | push | `c28a66a` | success |
+| 18/09 23:02 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35414502353) | `main` | workflow_dispatch | `c28a66a` | success |
+| 23/09 23:16 | [Build and deploy](https://github.com/CosmosPay/Cosmos-frontend/actions/runs/35946553910) | `main` | push | `60bf7fb` | success |
 
 </details>
 ---
